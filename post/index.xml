@@ -6,7 +6,7 @@
     <description>Recent content in Posts on sunny博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://nagisa969.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Oct 2023 17:31:38 +0800</lastBuildDate><atom:link href="http://nagisa969.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jane 主题预览</title>
       <link>http://nagisa969.github.io/post/jane-theme-preview.zh-cn/</link>
@@ -24,6 +24,15 @@
       <guid>http://nagisa969.github.io/post/jane-theme-preview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;
 &lt;p&gt;Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://nagisa969.github.io/post/my-first-post/</link>
+      <pubDate>Mon, 23 Oct 2023 17:31:38 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/my-first-post/</guid>
+      <description></description>
     </item>
     
     <item>
