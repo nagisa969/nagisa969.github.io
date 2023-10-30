@@ -6,7 +6,25 @@
     <description>Recent content in Posts on sunny博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Oct 2023 17:31:38 +0800</lastBuildDate><atom:link href="http://nagisa969.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Oct 2023 11:19:53 +0800</lastBuildDate><atom:link href="http://nagisa969.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Pages &#43; Hugo 搭建个人博客</title>
+      <link>http://nagisa969.github.io/post/secend-post/</link>
+      <pubDate>Mon, 30 Oct 2023 11:19:53 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/secend-post/</guid>
+      <description>1. 概念，搭建思路和运行环境 1.1 什么是 GitHub Pages？ GitHub Pages 是一组静态网页集合（Static Web Page），这些静态网页由 GitHub 托管（host）和发布，所</description>
+    </item>
+    
+    <item>
+      <title>2023年自己建网站的步骤</title>
+      <link>http://nagisa969.github.io/post/first-post/</link>
+      <pubDate>Mon, 23 Oct 2023 17:31:38 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/first-post/</guid>
+      <description>2023年了，国内虽然大部分流量都转向了移动端，但是对于企业网站、行业网站来说，PC端的网站是必不可缺的。而如果你从事的是外贸行业，那么外国</description>
+    </item>
+    
     <item>
       <title>Jane 主题预览</title>
       <link>http://nagisa969.github.io/post/jane-theme-preview.zh-cn/</link>
@@ -24,15 +42,6 @@
       <guid>http://nagisa969.github.io/post/jane-theme-preview/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is created by &lt;a href=&#34;http://daringfireball.net/&#34;&gt;Daring Fireball&lt;/a&gt;, the original guideline is &lt;a href=&#34;http://daringfireball.net/projects/markdown/syntax&#34;&gt;here&lt;/a&gt;. Its syntax, however, varies between different parsers or editors.&lt;/p&gt;
 &lt;p&gt;Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://nagisa969.github.io/post/my-first-post/</link>
-      <pubDate>Mon, 23 Oct 2023 17:31:38 +0800</pubDate>
-      
-      <guid>http://nagisa969.github.io/post/my-first-post/</guid>
-      <description></description>
     </item>
     
     <item>
