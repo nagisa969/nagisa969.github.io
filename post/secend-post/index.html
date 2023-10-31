@@ -535,7 +535,6 @@ GitHub Pages 仓库：将网页部署在 GitHub Pages
 勾选添加 README 文件，这会设置 main 分支为仓库的默认主分支，这在后面提交推送博客内容时很重要。</p>
 <h2 id="4-克隆博客源仓库到本地">4. 克隆博客源仓库到本地</h2>
 <p>打开想要在本地储存项目的文件夹（比如我的项目的文件夹是 project ）</p>
-<<<<<<< HEAD
 <p>cd project
 克隆博客源仓库到项目文件夹，克隆时使用的 HTTPS 仓库链接在这里查看：</p>
 <p>git clone <a href="https://github.com/nagisa969/nagisa969.github.io.git">https://github.com/nagisa969/nagisa969.github.io.git</a></p>
@@ -544,7 +543,6 @@ GitHub Pages 仓库：将网页部署在 GitHub Pages
 <p>用 Hugo 创建网站文件夹的命令是 hugo new site 网站名字。(比如，我的命名是 quickstart)</p>
 <p>cd nagisa969
 hugo new site quickstart</p>
-=======
 <p><strong>cd project</strong></p>
 <p>克隆博客源仓库到项目文件夹，克隆时使用的 HTTPS 仓库链接在这里查看：</p>
 <p><strong>git clone <a href="https://github.com/nagisa969/nagisa969.github.io.git">https://github.com/nagisa969/nagisa969.github.io.git</a></strong></p>
@@ -553,7 +551,6 @@ hugo new site quickstart</p>
 <p>用 Hugo 创建网站文件夹的命令是 hugo new site 网站名字。(比如，我的命名是 quickstart)</p>
 <p><strong>cd nagisa969</strong></p>
 <p><strong>hugo new site quickstart</strong></p>
->>>>>>> eee7aa4 (int)
 <p>用 Hugo 创建的网站共有 7 个文件夹和 1 个文件，这些文件分别代表：</p>
 <p>**archetypes：**存放用 hugo 命令新建的 md 文件应用的 front matter 模版</p>
 <p>**content：**存放内容页面，如 Blog</p>
@@ -605,11 +602,7 @@ hugo server</p>
 <p>将 public  文件夹关联远程 GitHub Pages 仓库，使用 GitHub Pages 仓库的 SSH 链接。</p>
 <p>（ ⚠️ 注意：要让 SSH 链接起作用，需要你添加过 SSH Key。如果你没有设置过 SSH Key，请参考 如何在 Mac 上为 GitHub 设置 SSH Key）</p>
 <p>GitHub Pages 仓库的 SSH 链接可以在这里查看：</p>
-<<<<<<< HEAD
-<p>git remote add origin <a href="mailto:git@github.com">git@github.com</a>:nagisa969/nagisa969.github.io.git</p>
-=======
 <p><strong>git remote add origin <a href="mailto:git@github.com">git@github.com</a>:nagisa969/nagisa969.github.io.git</strong></p>
->>>>>>> eee7aa4 (int)
 <p>推送博客源仓库的  public  文件夹中的 HTML 网页文件到 GitHub Pages 仓库 中，在推送仓库内容前要先用 git pull &ndash;rebase origin main 和远端仓库同步，否则会报错。</p>
 <p><strong>git pull &ndash;rebase origin main</strong></p>
 <p><strong>git add .</strong></p>
