@@ -537,12 +537,12 @@ GitHub Pages 仓库：将网页部署在 GitHub Pages
 <p>打开想要在本地储存项目的文件夹（比如我的项目的文件夹是 project ）</p>
 <p>cd project
 克隆博客源仓库到项目文件夹，克隆时使用的 HTTPS 仓库链接在这里查看：</p>
-<p>git clone <a href="https://github.com/miawithcode/cuttontail.git">https://github.com/miawithcode/cuttontail.git</a></p>
+<p>git clone <a href="https://github.com/nagisa969/nagisa969.github.io.git">https://github.com/nagisa969/nagisa969.github.io.git</a></p>
 <h2 id="5-使用-hugo-创建网站">5. 使用 Hugo 创建网站</h2>
-<p>进入刚刚克隆下来的博客源仓库文件夹（比如：我的博客源仓库文件夹名是 cuttontail，则cd cuttontail ），在这个文件夹里用 Hugo 创建一个网站文件夹。</p>
-<p>用 Hugo 创建网站文件夹的命令是 hugo new site 网站名字。(比如，我的命名是 cuttontail-blog)</p>
-<p>cd cuttontail
-hugo new site cuttontail-blog</p>
+<p>进入刚刚克隆下来的博客源仓库文件夹（比如：我的博客源仓库文件夹名是 nagisa969，则cd nagisa969 ），在这个文件夹里用 Hugo 创建一个网站文件夹。</p>
+<p>用 Hugo 创建网站文件夹的命令是 hugo new site 网站名字。(比如，我的命名是 quickstart)</p>
+<p>cd nagisa969
+hugo new site quickstart</p>
 <p>用 Hugo 创建的网站共有 7 个文件夹和 1 个文件，这些文件分别代表：</p>
 <p>archetypes：存放用 hugo 命令新建的 md 文件应用的 front matter 模版
 content：存放内容页面，如 Blog
@@ -557,7 +557,7 @@ config.toml：网站配置文件</p>
 <p>可以从 Hugo 社区提供的主题中选择一个喜欢的主题应用在自己的网站中。</p>
 <h3 id="62-安装-hugo-主题">6.2 安装 Hugo 主题</h3>
 <p>一般在你选择的 Hugo 主题的文档中，都会给出「如何安装这个主题」的命令，比如我选用的 Hugo Bear Blog 的文档中给出：</p>
-<p>打开刚刚用 Hugo 创建的网站文件夹（我的是 cuttontail-blog），在终端输入文档中给出的命令。</p>
+<p>打开刚刚用 Hugo 创建的网站文件夹（我的是 quickstart），在终端输入文档中给出的命令。</p>
 <p>这时可以看到在themes文件夹中，多出了刚刚安装的主题文件，代表主题安装成功。</p>
 <h3 id="63-配置-hugo-主题">6.3 配置 Hugo 主题</h3>
 <p>一般安装的 Hugo 主题的文件结构中都会有 exampleSite 文件夹，也是你在选择主题时参考的网站 demo。</p>
@@ -594,7 +594,7 @@ hugo server  运行成功后，可以在 http://localhost:1313/ 中预览网站<
 <p>将 public  文件夹关联远程 GitHub Pages 仓库，使用 GitHub Pages 仓库的 SSH 链接。</p>
 <p>（ ⚠️ 注意：要让 SSH 链接起作用，需要你添加过 SSH Key。如果你没有设置过 SSH Key，请参考 如何在 Mac 上为 GitHub 设置 SSH Key）</p>
 <p>GitHub Pages 仓库的 SSH 链接可以在这里查看：</p>
-<p>git remote add origin <a href="mailto:git@github.com">git@github.com</a>:miawithcode/miawithcode.github.io.git</p>
+<p>git remote add origin <a href="mailto:git@github.com">git@github.com</a>:nagisa969/nagisa969.github.io.git</p>
 <p>推送博客源仓库的  public  文件夹中的 HTML 网页文件到 GitHub Pages 仓库 中，在推送仓库内容前要先用 git pull &ndash;rebase origin main 和远端仓库同步，否则会报错。</p>
 <p>git pull &ndash;rebase origin main</p>
 <p>git add .</p>
