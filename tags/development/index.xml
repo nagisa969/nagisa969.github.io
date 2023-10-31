@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>development on sunny博客站</title>
+    <title>development on sunny博客</title>
     <link>http://nagisa969.github.io/tags/development/</link>
-    <description>Recent content in development on sunny博客站</description>
+    <description>Recent content in development on sunny博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 22 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://nagisa969.github.io/tags/development/index.xml" rel="self" type="application/rss+xml" />
