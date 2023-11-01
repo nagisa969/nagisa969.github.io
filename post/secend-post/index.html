@@ -523,7 +523,7 @@ GitHub Pages 仓库：将网页部署在 GitHub Pages
 <p>这里使用包管理器安装 Hugo，我的操作系统是 Mac OS，所以使用 Homebrew 安装 Hugo。如果你使用的是 Windows 或 Linux，可以根据 Hugo 文档提示的方式安装： Hugo 文档：Install Hugo</p>
 <p>brew install hugo
 查看 Hugo 是否安装成功，显示 Hugo 版本号代表 Hugo 安装成功。</p>
-<p>hugo version</p>
+<p><strong>hugo version</strong></p>
 <h2 id="3-创建-github-仓库">3. 创建 GitHub 仓库</h2>
 <h3 id="31-创建博客源仓库">3.1 创建博客源仓库</h3>
 <p>命名博客源仓库（whatever you want）
@@ -534,6 +534,7 @@ GitHub Pages 仓库：将网页部署在 GitHub Pages
 勾选 Public，设置为公开仓库。
 勾选添加 README 文件，这会设置 main 分支为仓库的默认主分支，这在后面提交推送博客内容时很重要。</p>
 <h2 id="4-克隆博客源仓库到本地">4. 克隆博客源仓库到本地</h2>
+<<<<<<< HEAD
 <p>打开想要在本地储存项目的文件夹（比如我的项目的文件夹是 project ）</p>
 <p>cd project
 克隆博客源仓库到项目文件夹，克隆时使用的 HTTPS 仓库链接在这里查看：</p>
@@ -544,10 +545,14 @@ GitHub Pages 仓库：将网页部署在 GitHub Pages
 <p>cd nagisa969
 hugo new site quickstart</p>
 <p><strong>cd project</strong></p>
+=======
+<p>打开想要在本地储存项目的文件夹（比如我的项目的文件夹是 quickstart ）</p>
+<p><strong>cd quickstart</strong></p>
+>>>>>>> e38f4ed (update)
 <p>克隆博客源仓库到项目文件夹，克隆时使用的 HTTPS 仓库链接在这里查看：</p>
 <p><strong>git clone <a href="https://github.com/nagisa969/nagisa969.github.io.git">https://github.com/nagisa969/nagisa969.github.io.git</a></strong></p>
 <h2 id="5-使用-hugo-创建网站">5. 使用 Hugo 创建网站</h2>
-<p>进入刚刚克隆下来的博客源仓库文件夹（比如：我的博客源仓库文件夹名是 cuttontail，则cd nagisa969 ），在这个文件夹里用 Hugo 创建一个网站文件夹。</p>
+<p>进入刚刚克隆下来的博客源仓库文件夹（比如：我的博客源仓库文件夹名是 nagisa969，则cd nagisa969 ），在这个文件夹里用 Hugo 创建一个网站文件夹。</p>
 <p>用 Hugo 创建网站文件夹的命令是 hugo new site 网站名字。(比如，我的命名是 quickstart)</p>
 <p><strong>cd nagisa969</strong></p>
 <p><strong>hugo new site quickstart</strong></p>
@@ -585,13 +590,13 @@ hugo new site quickstart</p>
 <p>用这个命令创建的 Markdown 文件会套用 archetypes 文件夹中的 front matter 模版，在空白处用 Markdown 写入 blog 内容。</p>
 <p>其中：draft: true代表这篇文章是一个草稿，Hugo 不会显示草稿，要在主页显示添加的文章，可以设置 draft: false；或者直接删掉这行。</p>
 <h2 id="8-本地调试和预览">8. 本地调试和预览</h2>
-<p>在发布到网站前可以在本地预览网站或内容的效果，运行命令：
-hugo server</p>
+<p>在发布到网站前可以在本地预览网站或内容的效果，运行命令：</p>
+<p><strong>hugo server</strong></p>
 <p>也可以在本地编辑 Markdown 文件时，通过 hugo server 来实时预览显示效果。</p>
-<p>**hugo server ** 运行成功后，可以在 http://localhost:1313/ 中预览网站</p>
+<p><strong>hugo server</strong>  运行成功后，可以在 http://localhost:1313/ 中预览网站</p>
 <h2 id="9-发布内容">9. 发布内容</h2>
 <p>hugo  命令可以将你写的 Markdown 文件生成静态 HTML 网页，生成的 HTML 文件默认存放在 public 文件夹中。</p>
-<p>hugo</p>
+<p><strong>hugo</strong></p>
 <p>因为hugo  生成的静态 HTML 网页文件默认存放在  public  文件中，所以推送网页内容只需要把  public  中的 HTML 网页文件发布到 GitHub Pages 仓库中。</p>
 <p>将  public  文件夹初始化为 Git 仓库，并设置默认主分支名为  main。这么做的原因是：</p>
 <p>GitHub 创建仓库时生成的默认主分支名是 main
@@ -604,7 +609,7 @@ hugo server</p>
 <p>GitHub Pages 仓库的 SSH 链接可以在这里查看：</p>
 <p><strong>git remote add origin <a href="mailto:git@github.com">git@github.com</a>:nagisa969/nagisa969.github.io.git</strong></p>
 <p>推送博客源仓库的  public  文件夹中的 HTML 网页文件到 GitHub Pages 仓库 中，在推送仓库内容前要先用 git pull &ndash;rebase origin main 和远端仓库同步，否则会报错。</p>
-<p><strong>git pull &ndash;rebase origin main</strong></p>
+<p><strong>git pull - -rebase origin main</strong></p>
 <p><strong>git add .</strong></p>
 <p><strong>git commit -m &ldquo;&hellip;(修改的信息)&rdquo;</strong></p>
 <p><strong>git push origin main</strong></p>
@@ -622,7 +627,7 @@ hugo server</p>
 <p>运行：</p>
 <p>git add .</p>
 <p>git commit -m &ldquo;&hellip;(修改的信息)&rdquo;</p>
-<p>git pull &ndash;rebase origin main #可选,如果远端仓库与本地一致，则不需要合并。</p>
+<p>git pull - -rebase origin main #可选,如果远端仓库与本地一致，则不需要合并。</p>
 <p>git push origin main</p>
 <p>如果你使用的是自定义域名，第一次推送成功后，GitHub Pages 仓库会生成 CNAME 文件，所以第二次推送还要再合并一次：git pull &ndash;rebase origin main。</p>
 <p>后续更新博客就不再需要使用这个命令了。（根据实际情况使用）</p>
@@ -632,24 +637,6 @@ hugo server</p>
 
         
         
-<div class="post-copyright">
-  <p class="copyright-item">
-    <span class="item-title">Author</span>
-    <span class="item-content">sunny</span>
-  </p>
-  <p class="copyright-item">
-    <span class="item-title">LastMod</span>
-    <span class="item-content">
-      2023-10-30
-      
-    </span>
-  </p>
-  
-  <p class="copyright-item">
-    <span class="item-title">License</span>
-    <span class="item-content"><a href="https://github.com/gohugoio/hugoBasicExample" rel="noopener" target="_blank">See origin</a></span>
-  </p>
-</div>
 
 
 
