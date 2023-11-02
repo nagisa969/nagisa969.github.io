@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html
-  lang="en"
+  lang="zh-cn"
   itemscope
   itemtype="http://schema.org/WebPage"
 >
@@ -124,7 +124,7 @@ This document is a brief primer on using go templates."/>
         
           
           
-            <a class="menu-item-link" href="http://nagisa969.github.io/post/">归档</a>
+            <a class="menu-item-link" href="http://nagisa969.github.io/post/">全部文章</a>
           
         
       </li><li class="mobile-menu-item">
@@ -186,14 +186,6 @@ This document is a brief primer on using go templates."/>
                 <a href="http://nagisa969.github.io/post/demo/5-math/">Demo: Math</a>
               </li>
             
-              <li>
-                <a href="http://nagisa969.github.io/post/demo/6-shortcode-notice/">Demo: Shortcodes Notice</a>
-              </li>
-            
-              <li>
-                <a href="http://nagisa969.github.io/post/demo/7-shortcodes-preview/">Demo: more Shortcodes</a>
-              </li>
-            
           </ul>
         
       </li><li class="mobile-menu-item">
@@ -213,10 +205,6 @@ This document is a brief primer on using go templates."/>
             
               <li>
                 <a href="http://nagisa969.github.io/post/secend-post/">GitHub Pages &#43; Hugo 搭建个人博客</a>
-              </li>
-            
-              <li>
-                <a href="http://nagisa969.github.io/post/jane-theme-preview/">Jane Theme Preview</a>
               </li>
             
               <li>
@@ -334,7 +322,7 @@ This document is a brief primer on using go templates."/>
         
           
           
-            <a class="menu-item-link" href="http://nagisa969.github.io/post/">归档</a>
+            <a class="menu-item-link" href="http://nagisa969.github.io/post/">全部文章</a>
           
 
         
@@ -411,14 +399,6 @@ This document is a brief primer on using go templates."/>
                 <a href="http://nagisa969.github.io/post/demo/5-math/">Demo: Math</a>
               </li>
             
-              <li class="submenu-item">
-                <a href="http://nagisa969.github.io/post/demo/6-shortcode-notice/">Demo: Shortcodes Notice</a>
-              </li>
-            
-              <li class="submenu-item">
-                <a href="http://nagisa969.github.io/post/demo/7-shortcodes-preview/">Demo: more Shortcodes</a>
-              </li>
-            
           </ul>
 
         
@@ -437,10 +417,6 @@ This document is a brief primer on using go templates."/>
             
               <li class="submenu-item">
                 <a href="http://nagisa969.github.io/post/secend-post/">GitHub Pages &#43; Hugo 搭建个人博客</a>
-              </li>
-            
-              <li class="submenu-item">
-                <a href="http://nagisa969.github.io/post/jane-theme-preview/">Jane Theme Preview</a>
               </li>
             
               <li class="submenu-item">
@@ -768,6 +744,23 @@ so, such as in this example:</p>
 
         
         
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/wechat-qr-code.png">
+        <span>微信打赏</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/alipay-qr-code.png">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div>
 
 
         <footer class="post-footer">
@@ -795,12 +788,12 @@ so, such as in this example:</p>
 
                 </i>
                 <span class="prev-text nav-default">Creating a New Theme</span>
-                <span class="prev-text nav-mobile">Prev</span>
+                <span class="prev-text nav-mobile">上一篇</span>
               </a>
             
               <a class="next" href="/post/other/hugoisforlovers/">
                 <span class="next-text nav-default">Getting Started with Hugo</span>
-                <span class="prev-text nav-mobile">Next</span>
+                <span class="prev-text nav-mobile">下一篇</span>
                 
                 <i class="iconfont">
                   <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -829,6 +822,17 @@ so, such as in this example:</p>
 
   
   
+    <div class="post">
+  <script src="https://utteranc.es/client.js"
+        repo= "nagisa969/nagisa969.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
+</div>
+
+  
 
   
 
@@ -845,7 +849,7 @@ so, such as in this example:</p>
 
     
     <nav class="toc" id="toc">
-    <div class="toc-title">Table of Contents</div>
+    <div class="toc-title">文章目录</div>
     <div class="toc-content custom-scrollbar">
       <nav id="TableOfContents">
   <ul>

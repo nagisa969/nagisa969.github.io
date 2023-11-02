@@ -233,7 +233,7 @@
   </url>
   
   <url>
-    <loc>http://nagisa969.github.io/post/jane-theme-preview.zh-cn/</loc>
+    <loc>http://nagisa969.github.io/post/jane-theme-preview/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -254,21 +254,7 @@
   </url>
   
   <url>
-    <loc>http://nagisa969.github.io/post/demo/7-shortcodes-preview/</loc>
-    <lastmod>2018-03-05T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://nagisa969.github.io/post/demo/1-image/</loc>
-    <lastmod>2018-03-04T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://nagisa969.github.io/post/demo/6-shortcode-notice/</loc>
     <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -312,13 +298,6 @@
   <url>
     <loc>http://nagisa969.github.io/tags/tag-11/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://nagisa969.github.io/post/jane-theme-preview/</loc>
-    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
