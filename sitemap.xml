@@ -2,22 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://nagisa969.github.io/post/secend-post/</loc>
-    <lastmod>2023-10-30T11:19:53+08:00</lastmod>
+    <loc>http://nagisa969.github.io/post/how-to-build-60-and-120-ip-small-site-groups/</loc>
+    <lastmod>2023-11-02T09:07:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://nagisa969.github.io/post/first-post/</loc>
-    <lastmod>2023-10-23T17:31:38+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://nagisa969.github.io/post/jane-theme-preview/</loc>
-    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
+    <loc>http://nagisa969.github.io/post/how-to-do-site-group-seo/</loc>
+    <lastmod>2023-11-02T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,42 +24,63 @@
   
   <url>
     <loc>http://nagisa969.github.io/tags/blog/</loc>
-    <lastmod>2023-10-30T11:19:53+08:00</lastmod>
+    <lastmod>2023-11-02T09:07:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/categories/</loc>
-    <lastmod>2023-10-30T11:19:53+08:00</lastmod>
+    <lastmod>2023-11-02T09:07:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/categories/docs/</loc>
-    <lastmod>2023-10-30T11:19:53+08:00</lastmod>
+    <lastmod>2023-11-02T09:07:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/post/</loc>
-    <lastmod>2023-10-30T11:19:53+08:00</lastmod>
+    <lastmod>2023-11-02T09:07:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/tags/seo/</loc>
+    <lastmod>2023-11-02T09:07:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/</loc>
-    <lastmod>2023-10-30T11:19:53+08:00</lastmod>
+    <lastmod>2023-11-02T09:07:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/tags/</loc>
+    <lastmod>2023-11-02T09:07:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/post/secend-post/</loc>
     <lastmod>2023-10-30T11:19:53+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/post/first-post/</loc>
+    <lastmod>2023-10-23T17:31:38+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -298,6 +312,13 @@
   <url>
     <loc>http://nagisa969.github.io/tags/tag-11/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/post/jane-theme-preview/</loc>
+    <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
