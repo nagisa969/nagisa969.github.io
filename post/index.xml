@@ -6,16 +6,7 @@
     <description>Recent content in Posts on sunny博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 03 Nov 2023 13:04:00 +0800</lastBuildDate><atom:link href="http://nagisa969.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>全面解析VPN：保护你的在线隐私与安全</title>
-      <link>http://nagisa969.github.io/post/vpn/comprehensive-analysis-of-vpn/</link>
-      <pubDate>Fri, 03 Nov 2023 11:31:29 +0800</pubDate>
-      
-      <guid>http://nagisa969.github.io/post/vpn/comprehensive-analysis-of-vpn/</guid>
-      <description>在当今数字化时代，隐私和安全对于在线活动至关重要。虚拟专用网络（VPN）作为一种关键的网络安全工具，能够加密你的网络连接并保护个人隐私。本文</description>
-    </item>
-    
+    <lastBuildDate>Sat, 04 Nov 2023 11:11:56 +0800</lastBuildDate><atom:link href="http://nagisa969.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SEO基础知识：提高网站排名的五大关键策略</title>
       <link>http://nagisa969.github.io/post/seo/seo-basics/</link>
@@ -23,15 +14,6 @@
       
       <guid>http://nagisa969.github.io/post/seo/seo-basics/</guid>
       <description>SEO（Search Engine Optimization） 是一项关键的数字营销策略，它通过优化网站结构、内容和链接来提高网站在搜索引擎结果页面中的排名</description>
-    </item>
-    
-    <item>
-      <title>怎么搭建60和120个IP小型站群?</title>
-      <link>http://nagisa969.github.io/post/seo/how-to-build-60-and-120-ip-small-site-groups/</link>
-      <pubDate>Thu, 02 Nov 2023 09:07:58 +0800</pubDate>
-      
-      <guid>http://nagisa969.github.io/post/seo/how-to-build-60-and-120-ip-small-site-groups/</guid>
-      <description>要搭建一个包含60到120个IP的小型站群，首先需要购买相应数量的域名和服务器。 以下是搭建步骤： 购买域名：根据站群规模，购买60到120个域</description>
     </item>
     
     <item>
@@ -44,12 +26,48 @@
     </item>
     
     <item>
+      <title>体育博彩：全球现象、投资与娱乐、风险与管理</title>
+      <link>http://nagisa969.github.io/post/gamble/sports-betting/</link>
+      <pubDate>Sat, 04 Nov 2023 11:11:56 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/gamble/sports-betting/</guid>
+      <description>体育博彩是一种以体育比赛为基础的各种博彩方式，它在全球范围内都受到了广泛的关注和参与。体育博彩不仅仅是一种娱乐方式，它也具有投资的性质，吸引</description>
+    </item>
+    
+    <item>
+      <title>最佳体育博彩网站:哪一个是当今最好的体育博彩网站</title>
+      <link>http://nagisa969.github.io/post/gamble/best-sports-betting-sites/</link>
+      <pubDate>Sat, 04 Nov 2023 10:48:00 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/gamble/best-sports-betting-sites/</guid>
+      <description>在计算机的所有用途中，计算机最流行的用途之一无疑是网络游戏。网络提供了各种网站供人们访问并参与在线游戏。考虑体育博彩的人们经常研究并访问不同</description>
+    </item>
+    
+    <item>
       <title>探索老虎机：从历史到影响的全面解析</title>
       <link>http://nagisa969.github.io/post/gamble/explore-slot-machines/</link>
       <pubDate>Fri, 03 Nov 2023 13:04:00 +0800</pubDate>
       
       <guid>http://nagisa969.github.io/post/gamble/explore-slot-machines/</guid>
       <description>老虎机是一种流行的赌博游戏，吸引了许多人的注意。在这篇文章中，我们将探讨老虎机的历史、运作原理、不同类型、以及它对社会和个人的影响。 1. 老虎机</description>
+    </item>
+    
+    <item>
+      <title>全面解析VPN：保护你的在线隐私与安全</title>
+      <link>http://nagisa969.github.io/post/vpn/comprehensive-analysis-of-vpn/</link>
+      <pubDate>Fri, 03 Nov 2023 11:31:29 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/vpn/comprehensive-analysis-of-vpn/</guid>
+      <description>在当今数字化时代，隐私和安全对于在线活动至关重要。虚拟专用网络（VPN）作为一种关键的网络安全工具，能够加密你的网络连接并保护个人隐私。本文</description>
+    </item>
+    
+    <item>
+      <title>怎么搭建60和120个IP小型站群?</title>
+      <link>http://nagisa969.github.io/post/seo/how-to-build-60-and-120-ip-small-site-groups/</link>
+      <pubDate>Thu, 02 Nov 2023 09:07:58 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/seo/how-to-build-60-and-120-ip-small-site-groups/</guid>
+      <description>要搭建一个包含60到120个IP的小型站群，首先需要购买相应数量的域名和服务器。 以下是搭建步骤： 购买域名：根据站群规模，购买60到120个域</description>
     </item>
     
     <item>
@@ -180,31 +198,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <guid>http://nagisa969.github.io/post/other/goisforlovers/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>http://nagisa969.github.io/post/other/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://nagisa969.github.io/post/other/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>http://nagisa969.github.io/post/other/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://nagisa969.github.io/post/other/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/▾ images/logo.pngshould become
-▾ &amp;lt;root&amp;gt;/▾ static/▾ images/logo.pngAdditionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
   </channel>
