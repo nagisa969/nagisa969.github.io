@@ -25,17 +25,5 @@
       <description>2023年了，国内虽然大部分流量都转向了移动端，但是对于企业网站、行业网站来说，PC端的网站是必不可缺的。而如果你从事的是外贸行业，那么外国</description>
     </item>
     
-    <item>
-      <title>How to Contribute</title>
-      <link>http://nagisa969.github.io/post/docs/how-to-contribute/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://nagisa969.github.io/post/docs/how-to-contribute/</guid>
-      <description>Contributing to Jane There are many ways to contribute to the Jane theme: submitting pull requests, reporting issues, providing new translations, and creating suggestions.
-Build and Run If you want to understand how Jane works, you&amp;rsquo;ll want to get the source, build it, and run locally.
-Getting the sources git clone https://github.com/xianmin/hugo-theme-jane.git Prerequisites You need install the Hugo_extended version to use Hugo Pipes.
-We recommend that you use VSCode. And if you edit .</description>
-    </item>
-    
   </channel>
 </rss>
