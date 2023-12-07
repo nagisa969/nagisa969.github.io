@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://nagisa969.github.io/post/seo/what-is-seo-search-engine-optimization/</loc>
+    <lastmod>2023-12-07T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://nagisa969.github.io/post/seo/seo-basics/</loc>
     <lastmod>2023-11-03T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -18,14 +25,49 @@
   
   <url>
     <loc>http://nagisa969.github.io/tags/blog/</loc>
-    <lastmod>2023-11-20T10:19:09+08:00</lastmod>
+    <lastmod>2023-12-07T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/categories/</loc>
-    <lastmod>2023-11-20T10:19:09+08:00</lastmod>
+    <lastmod>2023-12-07T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/post/</loc>
+    <lastmod>2023-12-07T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/tags/seo/</loc>
+    <lastmod>2023-12-07T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/categories/seo/</loc>
+    <lastmod>2023-12-07T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/</loc>
+    <lastmod>2023-12-07T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/tags/</loc>
+    <lastmod>2023-12-07T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,43 +87,8 @@
   </url>
   
   <url>
-    <loc>http://nagisa969.github.io/post/</loc>
-    <lastmod>2023-11-20T10:19:09+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://nagisa969.github.io/</loc>
-    <lastmod>2023-11-20T10:19:09+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://nagisa969.github.io/tags/</loc>
-    <lastmod>2023-11-20T10:19:09+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://nagisa969.github.io/post/gamble/how-to-play-the-wheel-of-fortune-slot-machine/</loc>
     <lastmod>2023-11-20T10:19:09+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://nagisa969.github.io/tags/seo/</loc>
-    <lastmod>2023-11-13T09:06:57+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://nagisa969.github.io/categories/seo/</loc>
-    <lastmod>2023-11-13T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
