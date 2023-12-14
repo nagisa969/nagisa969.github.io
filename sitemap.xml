@@ -3,13 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://nagisa969.github.io/post/seo/what-is-sem-seo-sns-smm-promotion/</loc>
-    <lastmod>2023-12-07T09:06:57+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://nagisa969.github.io/post/seo/what-is-seo-search-engine-optimization/</loc>
     <lastmod>2023-12-07T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -24,57 +17,71 @@
   </url>
   
   <url>
-    <loc>http://nagisa969.github.io/post/seo/how-to-do-site-group-seo/</loc>
-    <lastmod>2023-11-02T09:06:57+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://nagisa969.github.io/tags/blog/</loc>
-    <lastmod>2023-12-13T09:06:57+08:00</lastmod>
+    <lastmod>2023-12-14T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/categories/</loc>
-    <lastmod>2023-12-13T09:06:57+08:00</lastmod>
+    <lastmod>2023-12-14T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/post/</loc>
-    <lastmod>2023-12-13T09:06:57+08:00</lastmod>
+    <lastmod>2023-12-14T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/tags/seo/</loc>
-    <lastmod>2023-12-13T09:06:57+08:00</lastmod>
+    <lastmod>2023-12-14T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/categories/seo/</loc>
-    <lastmod>2023-12-13T09:06:57+08:00</lastmod>
+    <lastmod>2023-12-14T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/post/seo/difference-between-seo-and-sem/</loc>
+    <lastmod>2023-12-14T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/post/seo/seo-optimization-guide/</loc>
+    <lastmod>2023-12-14T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/post/seo/seo-website-group/</loc>
+    <lastmod>2023-12-14T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/</loc>
-    <lastmod>2023-12-13T09:06:57+08:00</lastmod>
+    <lastmod>2023-12-14T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://nagisa969.github.io/tags/</loc>
-    <lastmod>2023-12-13T09:06:57+08:00</lastmod>
+    <lastmod>2023-12-14T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -82,6 +89,13 @@
   <url>
     <loc>http://nagisa969.github.io/post/seo/how-to-use-chatgptapi-to-generate-bulk-article-content/</loc>
     <lastmod>2023-12-13T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/post/seo/what-is-sem-seo-sns-smm-promotion/</loc>
+    <lastmod>2023-12-07T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -173,6 +187,13 @@
   <url>
     <loc>http://nagisa969.github.io/post/seo/how-to-build-60-and-120-ip-small-site-groups/</loc>
     <lastmod>2023-11-02T09:07:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/post/seo/how-to-do-site-group-seo/</loc>
+    <lastmod>2023-11-02T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
