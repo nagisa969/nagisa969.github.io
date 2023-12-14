@@ -26,6 +26,15 @@
     </item>
     
     <item>
+      <title>VPN选择指南：保护隐私与安全的最佳建议</title>
+      <link>http://nagisa969.github.io/post/vpn/vpn-selection-guide/</link>
+      <pubDate>Thu, 14 Dec 2023 11:31:29 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/vpn/vpn-selection-guide/</guid>
+      <description>在当今数字化时代，隐私和安全成为网络使用者越来越关心的问题。使用虚拟私人网络（VPN）是一种有效的方式，帮助用户加密网络连接、绕过地理限制、</description>
+    </item>
+    
+    <item>
       <title>选择最佳VPN：保障隐私与安全的重要步骤</title>
       <link>http://nagisa969.github.io/post/vpn/choosing-the-best-vpn/</link>
       <pubDate>Thu, 14 Dec 2023 11:31:29 +0800</pubDate>
@@ -176,15 +185,6 @@
       
       <guid>http://nagisa969.github.io/post/docs/secend-post/</guid>
       <description>1. 概念，搭建思路和运行环境 1.1 什么是 GitHub Pages？ GitHub Pages 是一组静态网页集合（Static Web Page），这些静态网页由 GitHub 托管（host）和发布，所</description>
-    </item>
-    
-    <item>
-      <title>2023年自己建网站的步骤</title>
-      <link>http://nagisa969.github.io/post/docs/first-post/</link>
-      <pubDate>Mon, 23 Oct 2023 17:31:38 +0800</pubDate>
-      
-      <guid>http://nagisa969.github.io/post/docs/first-post/</guid>
-      <description>2023年了，国内虽然大部分流量都转向了移动端，但是对于企业网站、行业网站来说，PC端的网站是必不可缺的。而如果你从事的是外贸行业，那么外国</description>
     </item>
     
   </channel>

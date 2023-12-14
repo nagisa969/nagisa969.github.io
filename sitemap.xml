@@ -66,6 +66,13 @@
   </url>
   
   <url>
+    <loc>http://nagisa969.github.io/post/vpn/vpn-selection-guide/</loc>
+    <lastmod>2023-12-14T11:31:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://nagisa969.github.io/post/vpn/choosing-the-best-vpn/</loc>
     <lastmod>2023-12-14T11:31:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -103,6 +110,20 @@
   <url>
     <loc>http://nagisa969.github.io/post/seo/seo-website-group/</loc>
     <lastmod>2023-12-14T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/categories/others/</loc>
+    <lastmod>2023-12-13T09:06:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://nagisa969.github.io/tags/technical/</loc>
+    <lastmod>2023-12-13T09:06:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
