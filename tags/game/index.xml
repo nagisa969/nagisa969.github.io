@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>game on sunny博客</title>
+    <link>http://nagisa969.github.io/tags/game/</link>
+    <description>Recent content in game on sunny博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 14 Dec 2023 12:31:29 +0800</lastBuildDate><atom:link href="http://nagisa969.github.io/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何制作一款简单的电脑游戏</title>
+      <link>http://nagisa969.github.io/post/game/how-to-make-a-simple-computer-game/</link>
+      <pubDate>Thu, 14 Dec 2023 12:31:29 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/game/how-to-make-a-simple-computer-game/</guid>
+      <description>制作一款简单的电脑游戏可以是一个令人兴奋和具有创造性的过程。以下是一个简单的步骤指南，帮助您入门，制作您自己的基础游戏： 1. 明确游戏的创意和目</description>
+    </item>
+    
+    <item>
+      <title>制作你自己的电脑游戏：从创意到实现的全面指南</title>
+      <link>http://nagisa969.github.io/post/game/make-your-own-computer-game/</link>
+      <pubDate>Thu, 14 Dec 2023 12:31:29 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/game/make-your-own-computer-game/</guid>
+      <description>在数字时代，游戏开发不再是高不可攀的领域，越来越多的人都能够通过各种工具和资源制作自己的电脑游戏。本文将为您提供一份详尽的指南，帮助您从创意</description>
+    </item>
+    
+  </channel>
+</rss>
