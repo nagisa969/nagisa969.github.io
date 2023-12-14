@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
-          Getting Started with Hugo - sunny博客
+          如何用chatgptAPI生成批量文章内容自动上传到WordPress - sunny博客
         </title>
     
 
@@ -45,15 +45,9 @@
 
 <meta name="mobile-web-app-capable" content="yes">
 
-<meta name="author" content="sunny" />
-  <meta name="description" content="Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:" />
+<meta name="author" content="sunny" /><meta name="description" content="使用ChatGPT API 批量生成文章内容并自动上传到WordPress 涉及多个步骤。你需要先获取ChatGPT API的访问凭证（API key），然后使用PHP脚本生成文章内容并通过WordPress REST API上传。" />
+<meta name="keywords" content="ChatGPT, WordPress, API" />
 
-  <meta name="keywords" content="Hugo, theme, Sunny" />
 
 
 
@@ -63,7 +57,7 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
 <meta name="generator" content="Hugo 0.119.0" />
 
 
-<link rel="canonical" href="http://nagisa969.github.io/post/other/hugoisforlovers/" />
+<link rel="canonical" href="http://nagisa969.github.io/post/others/how-to-use-chatgptapi-to-generate-bulk-article-content/" />
 
 
 
@@ -89,34 +83,19 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
 
 
 
-<meta property="og:title" content="Getting Started with Hugo" />
-<meta property="og:description" content="Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:" />
+<meta property="og:title" content="如何用chatgptAPI生成批量文章内容自动上传到WordPress" />
+<meta property="og:description" content="使用ChatGPT API 批量生成文章内容并自动上传到WordPress 涉及多个步骤。你需要先获取ChatGPT API的访问凭证（API key），然后使用PHP脚本生成文章内容并通过WordPress REST API上传。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://nagisa969.github.io/post/other/hugoisforlovers/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2014-04-02T00:00:00+00:00" />
-<meta property="article:modified_time" content="2014-04-02T00:00:00+00:00" />
-<meta itemprop="name" content="Getting Started with Hugo">
-<meta itemprop="description" content="Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:"><meta itemprop="datePublished" content="2014-04-02T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2014-04-02T00:00:00+00:00" />
-<meta itemprop="wordCount" content="349">
-<meta itemprop="keywords" content="go,golang,hugo,development," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Getting Started with Hugo"/>
-<meta name="twitter:description" content="Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:"/>
+<meta property="og:url" content="http://nagisa969.github.io/post/others/how-to-use-chatgptapi-to-generate-bulk-article-content/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-12-13T09:06:57+08:00" />
+<meta property="article:modified_time" content="2023-12-13T09:06:57+08:00" />
+<meta itemprop="name" content="如何用chatgptAPI生成批量文章内容自动上传到WordPress">
+<meta itemprop="description" content="使用ChatGPT API 批量生成文章内容并自动上传到WordPress 涉及多个步骤。你需要先获取ChatGPT API的访问凭证（API key），然后使用PHP脚本生成文章内容并通过WordPress REST API上传。"><meta itemprop="datePublished" content="2023-12-13T09:06:57+08:00" />
+<meta itemprop="dateModified" content="2023-12-13T09:06:57+08:00" />
+<meta itemprop="wordCount" content="766">
+<meta itemprop="keywords" content="blog,SEO," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="如何用chatgptAPI生成批量文章内容自动上传到WordPress"/>
+<meta name="twitter:description" content="使用ChatGPT API 批量生成文章内容并自动上传到WordPress 涉及多个步骤。你需要先获取ChatGPT API的访问凭证（API key），然后使用PHP脚本生成文章内容并通过WordPress REST API上传。"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -200,7 +179,19 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
           <ul class="mobile-submenu-list">
             
               <li>
+                <a href="http://nagisa969.github.io/post/seo/seo-optimization-guide/">SEO优化指南：提升网站排名的关键步骤</a>
+              </li>
+            
+              <li>
                 <a href="http://nagisa969.github.io/post/seo/seo-basics/">SEO基础知识：提高网站排名的五大关键策略</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/seo/seo-website-group/">SEO站群：优化策略与实践</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/seo/what-is-seo-search-engine-optimization/">什么是SEO – 搜索引擎优化？</a>
               </li>
             
               <li>
@@ -226,6 +217,10 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
             
               <li>
                 <a href="http://nagisa969.github.io/post/vpn/comprehensive-analysis-of-vpn/">全面解析VPN：保护你的在线隐私与安全</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/vpn/choosing-the-best-vpn/">选择最佳VPN：保障隐私与安全的重要步骤</a>
               </li>
             
           </ul>
@@ -389,7 +384,19 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
           <ul class="submenu">
             
               <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/seo/seo-optimization-guide/">SEO优化指南：提升网站排名的关键步骤</a>
+              </li>
+            
+              <li class="submenu-item">
                 <a href="http://nagisa969.github.io/post/seo/seo-basics/">SEO基础知识：提高网站排名的五大关键策略</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/seo/seo-website-group/">SEO站群：优化策略与实践</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/seo/what-is-seo-search-engine-optimization/">什么是SEO – 搜索引擎优化？</a>
               </li>
             
               <li class="submenu-item">
@@ -416,6 +423,10 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
                 <a href="http://nagisa969.github.io/post/vpn/comprehensive-analysis-of-vpn/">全面解析VPN：保护你的在线隐私与安全</a>
               </li>
             
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/vpn/choosing-the-best-vpn/">选择最佳VPN：保障隐私与安全的重要步骤</a>
+              </li>
+            
           </ul>
 
         
@@ -439,7 +450,7 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
       <article class="post">
         
         <header class="post-header">
-          <h1 class="post-title">Getting Started with Hugo</h1>
+          <h1 class="post-title">如何用chatgptAPI生成批量文章内容自动上传到WordPress</h1>
           
 
           <div class="post-meta">
@@ -454,8 +465,8 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
   </div>
 
   <div class="post-meta-time">
-    <time datetime="2014-04-02">
-      2014-04-02
+    <time datetime="2023-12-13">
+      2023-12-13
     </time>
   </div>
 
@@ -466,9 +477,7 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
     
 
     <div class="post-meta-category">
-        <a href="http://nagisa969.github.io/categories/development/"> Development </a>
-          <a href="http://nagisa969.github.io/categories/golang/"> golang </a>
-          <a href="http://nagisa969.github.io/categories/index/"> index </a>
+        <a href="http://nagisa969.github.io/categories/seo/"> SEO </a>
           
       </div>
 
@@ -486,60 +495,107 @@ Clone the hugo repository Go into the repo Run hugo in server mode and build the
 
         
         <div class="post-content">
-          <h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
-<p>Goto <a href="https://github.com/spf13/hugo/releases">hugo releases</a> and download the
-appropriate version for your os and architecture.</p>
-<p>Save it somewhere specific as we will be using it in the next step.</p>
-<p>More complete instructions are available at <a href="/overview/installing/">installing hugo</a></p>
-<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
-<p>Hugo has its own example site which happens to also be the documentation site
-you are reading right now.</p>
-<p>Follow the following steps:</p>
-<ol>
-<li>Clone the <a href="https://github.com/gohugoio/hugo">hugo repository</a></li>
-<li>Go into the repo</li>
-<li>Run hugo in server mode and build the docs</li>
-<li>Open your browser to http://localhost:1313</li>
-</ol>
-<p>Corresponding pseudo commands:</p>
-<pre><code>git clone https://github.com/gohugoio/hugo
-cd hugo
-/path/to/where/you/installed/hugo server --source=./docs
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 27 ms
-&gt; Web Server is available at http://localhost:1313
-&gt; Press ctrl+c to stop
-</code></pre>
-<p>Once you&rsquo;ve gotten here, follow along the rest of this page on your local build.</p>
-<h2 id="step-3-change-the-docs-site">Step 3. Change the docs site</h2>
-<p>Stop the Hugo process by hitting ctrl+c.</p>
-<p>Now we are going to run hugo again, but this time with hugo in watch mode.</p>
-<pre><code>/path/to/hugo/from/step/1/hugo server --source=./docs --watch
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 27 ms
-&gt; Web Server is available at http://localhost:1313
-&gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
-&gt; Press ctrl+c to stop
-</code></pre>
-<p>Open your <a href="https://vim.spf13.com">favorite editor</a> and change one of the source
-content pages. How about changing this very file to <em>fix the typo</em>. How about changing this very file to <em>fix the typo</em>.</p>
-<p>Content files are found in <code>docs/content/</code>. Unless otherwise specified, files
-are located at the same relative location as the url, in our case
-<code>docs/content/overview/quickstart.md</code>.</p>
-<p>Change and save this file.. Notice what happened in your terminal.</p>
-<pre><code>&gt; Change detected, rebuilding site
-
-&gt; 29 pages created
-&gt; 0 tags index created
-&gt; in 26 ms
-</code></pre>
-<p>Refresh the browser and observe that the typo is now fixed.</p>
-<p>Notice how quick that was. Try to refresh the site before it&rsquo;s finished building.. I double dare you.
-Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.</p>
-<h2 id="step-4-have-fun">Step 4. Have fun</h2>
-<p>The best way to learn something is to play with it.</p>
+          <p>使用ChatGPT API 批量生成文章内容并自动上传到WordPress 涉及多个步骤。你需要先获取ChatGPT API的访问凭证（API key），然后使用PHP脚本生成文章内容并通过WordPress REST API上传。</p>
+<p>以下是一个简单的例子，演示如何使用ChatGPT API 和WordPress REST API完成这个任务。请注意，为了运行以下代码，你需要替换 &lt;YOUR_CHATGPT_API_KEY&gt; 和 &lt;YOUR_WORDPRESS_API_ENDPOINT&gt; 分别为你的ChatGPT API密钥和WordPress REST API端点。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * Batch Content Generation and Upload Script
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * Description: A script to generate content using ChatGPT API and upload to WordPress.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * Version: 1.0
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> * Author: Your Name
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> */</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Function to generate content using ChatGPT API
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">generate_content_using_chatgpt</span>($num_articles) {
+</span></span><span style="display:flex;"><span>    $api_key <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&lt;YOUR_CHATGPT_API_KEY&gt;&#39;</span>;
+</span></span><span style="display:flex;"><span>    $api_url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://api.openai.com/v1/chat/completions&#39;</span>; <span style="color:#75715e">// Check OpenAI API documentation for the correct endpoint
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>    $content <span style="color:#f92672">=</span> <span style="color:#66d9ef">array</span>();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> ($i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; $i <span style="color:#f92672">&lt;=</span> $num_articles; $i<span style="color:#f92672">++</span>) {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// You can customize the prompt to get the desired content
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        $prompt <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Generate content for a WordPress post.&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Set up the HTTP headers
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        $headers <span style="color:#f92672">=</span> <span style="color:#66d9ef">array</span>(
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;Content-Type: application/json&#39;</span>,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;Authorization: Bearer &#39;</span> <span style="color:#f92672">.</span> $api_key,
+</span></span><span style="display:flex;"><span>        );
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Set up the request body
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        $data <span style="color:#f92672">=</span> <span style="color:#66d9ef">array</span>(
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;messages&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">array</span>(
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">array</span>(<span style="color:#e6db74">&#39;role&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;system&#39;</span>, <span style="color:#e6db74">&#39;content&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;You are a helpful assistant.&#39;</span>),
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">array</span>(<span style="color:#e6db74">&#39;role&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;user&#39;</span>, <span style="color:#e6db74">&#39;content&#39;</span> <span style="color:#f92672">=&gt;</span> $prompt),
+</span></span><span style="display:flex;"><span>            ),
+</span></span><span style="display:flex;"><span>        );
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Make a POST request to ChatGPT API
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        $response <span style="color:#f92672">=</span> <span style="color:#a6e22e">wp_remote_post</span>($api_url, <span style="color:#66d9ef">array</span>(
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;headers&#39;</span> <span style="color:#f92672">=&gt;</span> $headers,
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;body&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">json_encode</span>($data),
+</span></span><span style="display:flex;"><span>        ));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Check if the request was successful
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#a6e22e">is_wp_error</span>($response)) {
+</span></span><span style="display:flex;"><span>            $body <span style="color:#f92672">=</span> <span style="color:#a6e22e">wp_remote_retrieve_body</span>($response);
+</span></span><span style="display:flex;"><span>            $response_data <span style="color:#f92672">=</span> <span style="color:#a6e22e">json_decode</span>($body, <span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Extract the generated content
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            $generated_content <span style="color:#f92672">=</span> $response_data[<span style="color:#e6db74">&#39;choices&#39;</span>][<span style="color:#ae81ff">0</span>][<span style="color:#e6db74">&#39;message&#39;</span>][<span style="color:#e6db74">&#39;content&#39;</span>];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            $content[] <span style="color:#f92672">=</span> <span style="color:#66d9ef">array</span>(
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#39;title&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;Generated Post &#39;</span> <span style="color:#f92672">.</span> $i,
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#39;content&#39;</span> <span style="color:#f92672">=&gt;</span> $generated_content,
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#39;categories&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">array</span>(<span style="color:#e6db74">&#39;Uncategorized&#39;</span>), <span style="color:#75715e">// Add category names as needed
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            );
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">error_log</span>(<span style="color:#e6db74">&#39;Error generating content: &#39;</span> <span style="color:#f92672">.</span> $response<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">get_error_message</span>());
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> $content;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Function to upload articles to WordPress using REST API
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">upload_articles_to_wp</span>($articles) {
+</span></span><span style="display:flex;"><span>    $api_url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&lt;YOUR_WORDPRESS_API_ENDPOINT&gt;/wp-json/wp/v2/posts&#39;</span>; <span style="color:#75715e">// Replace with your WordPress site URL
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">foreach</span> ($articles <span style="color:#66d9ef">as</span> $article) {
+</span></span><span style="display:flex;"><span>        $response <span style="color:#f92672">=</span> <span style="color:#a6e22e">wp_remote_post</span>($api_url, <span style="color:#66d9ef">array</span>(
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;headers&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#66d9ef">array</span>(
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#39;Content-Type&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#39;application/json&#39;</span>,
+</span></span><span style="display:flex;"><span>            ),
+</span></span><span style="display:flex;"><span>            <span style="color:#e6db74">&#39;body&#39;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#a6e22e">json_encode</span>(<span style="color:#66d9ef">array</span>(
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#39;title&#39;</span> <span style="color:#f92672">=&gt;</span> $article[<span style="color:#e6db74">&#39;title&#39;</span>],
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#39;content&#39;</span> <span style="color:#f92672">=&gt;</span> $article[<span style="color:#e6db74">&#39;content&#39;</span>],
+</span></span><span style="display:flex;"><span>                <span style="color:#e6db74">&#39;categories&#39;</span> <span style="color:#f92672">=&gt;</span> $article[<span style="color:#e6db74">&#39;categories&#39;</span>],
+</span></span><span style="display:flex;"><span>            )),
+</span></span><span style="display:flex;"><span>        ));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Check if the request was successful
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">is_wp_error</span>($response)) {
+</span></span><span style="display:flex;"><span>            <span style="color:#a6e22e">error_log</span>(<span style="color:#e6db74">&#39;Error uploading article: &#39;</span> <span style="color:#f92672">.</span> $response<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">get_error_message</span>());
+</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>            $body <span style="color:#f92672">=</span> <span style="color:#a6e22e">wp_remote_retrieve_body</span>($response);
+</span></span><span style="display:flex;"><span>            $data <span style="color:#f92672">=</span> <span style="color:#a6e22e">json_decode</span>($body);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e">// Output the uploaded post ID
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>            <span style="color:#66d9ef">echo</span> <span style="color:#e6db74">&#39;Article uploaded successfully. Post ID: &#39;</span> <span style="color:#f92672">.</span> $data<span style="color:#f92672">-&gt;</span><span style="color:#a6e22e">id</span> <span style="color:#f92672">.</span> <span style="color:#e6db74">&#39;&lt;br&gt;&#39;</span>;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Number of articles to generate
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>$num_articles <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>; <span style="color:#75715e">// Change the number of articles as needed
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Generate content using ChatGPT API
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>$generated_content <span style="color:#f92672">=</span> <span style="color:#a6e22e">generate_content_using_chatgpt</span>($num_articles);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Upload articles to WordPress
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">upload_articles_to_wp</span>($generated_content);
+</span></span></code></pre></div><p>在上面的代码中，我们使用ChatGPT API生成文章内容，并通过WordPress REST API上传到WordPress站点。请确保替换 &lt;YOUR_CHATGPT_API_KEY&gt; 和 &lt;YOUR_WORDPRESS_API_ENDPOINT&gt; 为你的ChatGPT API密钥和WordPress站点的REST API端点。</p>
+<p>在实际使用中，你可能需要调整ChatGPT的调用方式、请求参数，以及根据你的需求定制WordPress文章的上传逻辑。此外，确保遵循ChatGPT API和WordPress REST API的文档，并注意API的使用规则和配额。</p>
 
         </div>
 
@@ -571,10 +627,8 @@ Having nearly instant feedback enables you to have your creativity flow without 
 
         <footer class="post-footer">
           <div class="post-tags">
-              <a href="http://nagisa969.github.io/tags/go/">go</a>
-                <a href="http://nagisa969.github.io/tags/golang/">golang</a>
-                <a href="http://nagisa969.github.io/tags/hugo/">hugo</a>
-                <a href="http://nagisa969.github.io/tags/development/">development</a>
+              <a href="http://nagisa969.github.io/tags/blog/">blog</a>
+                <a href="http://nagisa969.github.io/tags/seo/">SEO</a>
                 
             </div>
 
@@ -582,7 +636,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
           
           <nav class="post-nav">
             
-              <a class="prev" href="/post/other/goisforlovers/">
+              <a class="prev" href="/post/seo/seo-website-group/">
                 
                 <i class="iconfont">
                   <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -592,12 +646,12 @@ Having nearly instant feedback enables you to have your creativity flow without 
 </svg>
 
                 </i>
-                <span class="prev-text nav-default">(Hu)go Template Primer</span>
+                <span class="prev-text nav-default">SEO站群：优化策略与实践</span>
                 <span class="prev-text nav-mobile">上一篇</span>
               </a>
             
-              <a class="next" href="/post/other/migrate-from-jekyll/">
-                <span class="next-text nav-default">Migrate to Hugo from Jekyll</span>
+              <a class="next" href="/post/seo/what-is-sem-seo-sns-smm-promotion/">
+                <span class="next-text nav-default">什么是SEM、SEO、SNS、SMM推广</span>
                 <span class="prev-text nav-mobile">下一篇</span>
                 
                 <i class="iconfont">
@@ -653,19 +707,7 @@ Having nearly instant feedback enables you to have your creativity flow without 
     </div>
 
     
-    <nav class="toc" id="toc">
-    <div class="toc-title">文章目录</div>
-    <div class="toc-content custom-scrollbar">
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#step-1-install-hugo">Step 1. Install Hugo</a></li>
-    <li><a href="#step-2-build-the-docs">Step 2. Build the Docs</a></li>
-    <li><a href="#step-3-change-the-docs-site">Step 3. Change the docs site</a></li>
-    <li><a href="#step-4-have-fun">Step 4. Have fun</a></li>
-  </ul>
-</nav>
-    </div>
-  </nav>
+    
 
 
   </div>
