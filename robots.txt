@@ -4,6 +4,10 @@ Disallow: /post/how-to-do-site-group-seo/
 Disallow: /post/first-post/
 
 User-agent: *
+Disallow: http://nagisa969.github.io/
+Disallow: https://www.nagisa969.github.io/
+
+User-agent: *
 Allow: /
 
 Sitemap: https://nagisa969.github.io/sitemap.xml
