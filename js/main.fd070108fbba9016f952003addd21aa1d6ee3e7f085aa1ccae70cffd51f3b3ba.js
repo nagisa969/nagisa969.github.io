@@ -28,7 +28,7 @@
   // ns-hugo:C:\Users\Administrator\quickstart\themes\jane\assets\js\calendarApp.js
   var require_calendarApp = __commonJS({
     "ns-hugo:C:\\Users\\Administrator\\quickstart\\themes\\jane\\assets\\js\\calendarApp.js"() {
-      function CalendarApp(date) {
+      function CalendarApp2(date) {
         if (!(date instanceof Date)) {
           date = /* @__PURE__ */ new Date();
         }
@@ -77,9 +77,9 @@
         this.dayEventBoxEle = document.getElementById("add-day-event-box");
         this.showView(date);
         this.addEventListeners();
-        this.todayIsSpan.textContent = "\u4ECA\u5929\u662F" + this.months[date.getMonth()] + " " + date.getDate();
+        this.todayIsSpan.textContent = "\u4ECA\u5929\u662F" + this.months[date.getMonth()] + " " + date.getDate() + "\u53F7";
       }
-      CalendarApp.prototype.addEventListeners = function() {
+      CalendarApp2.prototype.addEventListeners = function() {
         this.calendar.addEventListener("click", this.mainCalendarClickClose.bind(this));
         this.todayIsSpan.addEventListener("click", this.showView.bind(this));
         this.calendarMonthLastDiv.addEventListener("click", this.showNewMonth.bind(this));
@@ -95,7 +95,7 @@
         this.dayEventAddForm.endAMPM.addEventListener("keyup", this.inputChangeLimiter.bind(this));
         this.dayEventAddForm.addBtn.addEventListener("click", this.saveAddNewEvent.bind(this));
       };
-      CalendarApp.prototype.showView = function(date) {
+      CalendarApp2.prototype.showView = function(date) {
         if (!date || !(date instanceof Date))
           date = /* @__PURE__ */ new Date();
         var now = new Date(date), y = now.getFullYear(), m = now.getMonth();
@@ -133,14 +133,14 @@
         setTimeout(function() {
           _that.calendarMonthDiv.classList.add("cview__month-activate");
         }, 50);
-        this.calendarMonthDiv.textContent = this.months[now.getMonth()] + " " + now.getFullYear();
+        this.calendarMonthDiv.textContent = now.getFullYear() + "\u5E74" + this.months[now.getMonth()];
         this.calendarMonthDiv.setAttribute("data-date", now);
         this.calendarMonthLastDiv.textContent = "\u2190 " + this.months[lastM.getMonth()];
         this.calendarMonthLastDiv.setAttribute("data-date", lastM);
         this.calendarMonthNextDiv.textContent = this.months[nextM.getMonth()] + " \u2192";
         this.calendarMonthNextDiv.setAttribute("data-date", nextM);
       };
-      CalendarApp.prototype.showDay = function(e, dayEle) {
+      CalendarApp2.prototype.showDay = function(e, dayEle) {
         e.stopPropagation();
         if (!dayEle) {
           dayEle = e.currentTarget;
@@ -149,10 +149,10 @@
         this.calDaySelected = dayEle;
         this.openDayWindow(dayDate);
       };
-      CalendarApp.prototype.openDayWindow = function(date) {
+      CalendarApp2.prototype.openDayWindow = function(date) {
         var now = /* @__PURE__ */ new Date();
         var day = new Date(date);
-        this.dayViewDateEle.textContent = this.days[day.getDay()] + ", " + this.months[day.getMonth()] + " " + day.getDate() + ", " + day.getFullYear();
+        this.dayViewDateEle.textContent = day.getFullYear() + "\u5E74, " + this.months[day.getMonth()] + " " + day.getDate() + "\u53F7, " + this.days[day.getDay()];
         this.dayViewDateEle.setAttribute("data-date", day);
         this.dayViewEle.classList.add("calendar--day-view-active");
         var _dayTopbarText = "";
@@ -177,9 +177,9 @@
           this.dayEventsList.removeChild(this.dayEventsList.firstChild);
         }
         this.dayEventsList.appendChild(this.showEventsCreateElesView(eventsToday));
-        this.dayEventsEle.textContent = _dayTopbarText + "events on " + this.months[day.getMonth()] + " " + day.getDate() + ", " + day.getFullYear();
+        this.dayEventsEle.textContent = _dayTopbarText + "events on " + day.getFullYear() + "\u5E74, " + this.months[day.getMonth()] + " " + day.getDate() + "\u53F7";
       };
-      CalendarApp.prototype.showEventsCreateElesView = function(events) {
+      CalendarApp2.prototype.showEventsCreateElesView = function(events) {
         var ul = document.createElement("ul");
         ul.className = "day-event-list-ul";
         events = this.sortEventsByTime(events);
@@ -208,7 +208,7 @@
         });
         return ul;
       };
-      CalendarApp.prototype.deleteEvent = function(e) {
+      CalendarApp2.prototype.deleteEvent = function(e) {
         var deleted = this.apts.splice(e.currentTarget.getAttribute("data-idx"), 1);
         var deletedDate = new Date(deleted[0].day);
         var anyDatesLeft = this.showEventsByDay(deletedDate);
@@ -225,7 +225,7 @@
         this.openDayWindow(deletedDate);
         ;
       };
-      CalendarApp.prototype.sortEventsByTime = function(events) {
+      CalendarApp2.prototype.sortEventsByTime = function(events) {
         if (!events)
           return [];
         return events.sort(function compare(a, b) {
@@ -238,7 +238,7 @@
           return 0;
         });
       };
-      CalendarApp.prototype.showEventsByDay = function(day) {
+      CalendarApp2.prototype.showEventsByDay = function(day) {
         var _events = [];
         this.apts.forEach(function(apt, idx) {
           if (day.toString() == apt.day.toString()) {
@@ -248,35 +248,35 @@
         });
         return _events.length ? _events : false;
       };
-      CalendarApp.prototype.closeDayWindow = function() {
+      CalendarApp2.prototype.closeDayWindow = function() {
         this.dayViewEle.classList.remove("calendar--day-view-active");
         this.closeNewEventBox();
       };
-      CalendarApp.prototype.mainCalendarClickClose = function(e) {
+      CalendarApp2.prototype.mainCalendarClickClose = function(e) {
         if (e.currentTarget != e.target) {
           return;
         }
         this.dayViewEle.classList.remove("calendar--day-view-active");
         this.closeNewEventBox();
       };
-      CalendarApp.prototype.addNewEventBox = function(e) {
+      CalendarApp2.prototype.addNewEventBox = function(e) {
         var target = e.currentTarget;
         this.dayEventBoxEle.setAttribute("data-active", "true");
         this.dayEventBoxEle.setAttribute("data-date", target.getAttribute("data-date"));
       };
-      CalendarApp.prototype.closeNewEventBox = function(e) {
+      CalendarApp2.prototype.closeNewEventBox = function(e) {
         if (e && e.keyCode && e.keyCode != 13)
           return false;
         this.dayEventBoxEle.setAttribute("data-active", "false");
         this.resetAddEventBox();
       };
-      CalendarApp.prototype.saveAddNewEvent = function() {
+      CalendarApp2.prototype.saveAddNewEvent = function() {
         var saveErrors = this.validateAddEventInput();
         if (!saveErrors) {
           this.addEvent();
         }
       };
-      CalendarApp.prototype.addEvent = function() {
+      CalendarApp2.prototype.addEvent = function() {
         var name = this.dayEventAddForm.nameEvent.value.trim();
         var dayOfDate = this.dayEventBoxEle.getAttribute("data-date");
         var dateObjectDay = new Date(dayOfDate);
@@ -294,7 +294,7 @@
           this.aptDates.push(dateObjectDay.toString());
         }
       };
-      CalendarApp.prototype.convertTo23HourTime = function(stringOfTime, AMPM) {
+      CalendarApp2.prototype.convertTo23HourTime = function(stringOfTime, AMPM) {
         var mins = stringOfTime.split(":");
         var hours = stringOfTime.trim();
         if (mins[1] && mins[1].trim()) {
@@ -307,7 +307,7 @@
         hours = AMPM == "am" ? hours == 12 ? 0 : hours : hours <= 11 ? parseInt(hours) + 12 : hours;
         return [hours, mins];
       };
-      CalendarApp.prototype.cleanEventTimeStampDates = function() {
+      CalendarApp2.prototype.cleanEventTimeStampDates = function() {
         var startTime = this.dayEventAddForm.startTime.value.trim() || this.dayEventAddForm.startTime.getAttribute("placeholder") || "8";
         var startAMPM = this.dayEventAddForm.startAMPM.value.trim() || this.dayEventAddForm.startAMPM.getAttribute("placeholder") || "am";
         startAMPM = startAMPM == "a" ? startAMPM + "m" : startAMPM;
@@ -324,7 +324,7 @@
           endDate.setDate(endDate.getDate() + 1);
         return [startDate, endDate];
       };
-      CalendarApp.prototype.validateAddEventInput = function() {
+      CalendarApp2.prototype.validateAddEventInput = function() {
         var _errors = false;
         var name = this.dayEventAddForm.nameEvent.value.trim();
         var startTime = this.dayEventAddForm.startTime.value.trim();
@@ -342,14 +342,14 @@
       };
       var timeOut = null;
       var activeEle = null;
-      CalendarApp.prototype.inputChangeLimiter = function(ele) {
+      CalendarApp2.prototype.inputChangeLimiter = function(ele) {
         if (ele.currentTarget) {
           ele = ele.currentTarget;
         }
         if (timeOut && ele == activeEle) {
           clearTimeout(timeOut);
         }
-        var limiter = CalendarApp.prototype.textOptionLimiter;
+        var limiter = CalendarApp2.prototype.textOptionLimiter;
         var _options = ele.getAttribute("data-options").split(",");
         var _format = ele.getAttribute("data-format") || "text";
         timeOut = setTimeout(function() {
@@ -357,7 +357,7 @@
         }, 600);
         activeEle = ele;
       };
-      CalendarApp.prototype.textOptionLimiter = function(options, input, format) {
+      CalendarApp2.prototype.textOptionLimiter = function(options, input, format) {
         if (!input)
           return "";
         if (input.indexOf(":") !== -1 && format == "datetime") {
@@ -402,7 +402,7 @@
         }
         return input;
       };
-      CalendarApp.prototype.resetAddEventBox = function() {
+      CalendarApp2.prototype.resetAddEventBox = function() {
         this.dayEventAddForm.nameEvent.value = "";
         this.dayEventAddForm.nameEvent.classList.remove("add-event-edit--error");
         this.dayEventAddForm.endTime.value = "";
@@ -410,14 +410,14 @@
         this.dayEventAddForm.endAMPM.value = "";
         this.dayEventAddForm.startAMPM.value = "";
       };
-      CalendarApp.prototype.showNewMonth = function(e) {
+      CalendarApp2.prototype.showNewMonth = function(e) {
         var date = e.currentTarget.dataset.date;
         var newMonthDate = new Date(date);
         this.showView(newMonthDate);
         this.closeDayWindow();
         return true;
       };
-      var calendar = new CalendarApp();
+      var calendar = new CalendarApp2();
       console.log(calendar);
     }
   });
@@ -565,6 +565,5 @@
     initToc_default();
     initHeaderAnchor_default();
     initFootnoteTooltip_default();
-    (0, import_calendarApp.default)();
   });
 })();
