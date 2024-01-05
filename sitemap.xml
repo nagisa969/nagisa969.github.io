@@ -3,35 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nagisa969.github.io/tags/blog/</loc>
-    <lastmod>2024-01-03T10:31:29+08:00</lastmod>
+    <loc>https://nagisa969.github.io/categories/</loc>
+    <lastmod>2024-01-05T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nagisa969.github.io/categories/</loc>
-    <lastmod>2024-01-03T10:31:29+08:00</lastmod>
+    <loc>https://nagisa969.github.io/tags/game/</loc>
+    <lastmod>2024-01-05T09:15:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nagisa969.github.io/categories/game/</loc>
+    <lastmod>2024-01-05T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nagisa969.github.io/post/</loc>
-    <lastmod>2024-01-03T10:31:29+08:00</lastmod>
+    <lastmod>2024-01-05T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nagisa969.github.io/</loc>
-    <lastmod>2024-01-03T10:31:29+08:00</lastmod>
+    <lastmod>2024-01-05T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nagisa969.github.io/tags/</loc>
+    <lastmod>2024-01-05T09:15:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nagisa969.github.io/tags/%E4%BA%9A%E6%B4%B2%E4%B9%8B%E5%AD%90/</loc>
+    <lastmod>2024-01-05T09:15:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nagisa969.github.io/post/game/son-of-asia-v50-new-content-guide/</loc>
+    <lastmod>2024-01-05T09:15:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nagisa969.github.io/tags/blog/</loc>
     <lastmod>2024-01-03T10:31:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -102,20 +130,6 @@
   
   <url>
     <loc>https://nagisa969.github.io/post/game/mhrs-monsterization-materials/</loc>
-    <lastmod>2024-01-02T09:15:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nagisa969.github.io/tags/game/</loc>
-    <lastmod>2024-01-02T09:15:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nagisa969.github.io/categories/game/</loc>
     <lastmod>2024-01-02T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -383,13 +397,6 @@
   <url>
     <loc>https://nagisa969.github.io/post/seo/the-ultimate-guide-to-site-optimization/</loc>
     <lastmod>2023-12-20T09:06:57+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nagisa969.github.io/tags/%E4%BA%9A%E6%B4%B2%E4%B9%8B%E5%AD%90/</loc>
-    <lastmod>2023-12-19T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
