@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>
-          sunny博客
+          HOGO的JANE主题添加侧边导航栏 - sunny博客
         </title>
     
 
@@ -45,9 +45,9 @@
 
 <meta name="mobile-web-app-capable" content="yes">
 
-<meta name="author" content="sunny" />
-  <meta name="description" content="发布收藏一些自己喜欢的文章。" />
-  <meta name="keywords" content="Hugo, theme, Sunny" />
+<meta name="author" content="sunny" /><meta name="description" content="Hogo的JANE主题是一款基于Hugo框架的主题，用于创建静态网站。之前用JANE主题建好站，总感觉要是有个侧边导航栏就好了，于是就寻思怎么添加一个侧边导航栏。" />
+<meta name="keywords" content="HOGO, 侧边导航栏, sidebar" />
+
 
 
 
@@ -57,8 +57,8 @@
 <meta name="generator" content="Hugo 0.119.0" />
 
 
-<link rel="canonical" href="http://nagisa969.github.io/" />
-<link href="/index.xml" rel="alternate" type="application/rss+xml" title="sunny博客" />
+<link rel="canonical" href="http://nagisa969.github.io/post/docs/add-side-navigation-bar-to-hogo-jane-theme/" />
+
 
 
 
@@ -83,14 +83,19 @@
 
 
 
-<meta property="og:title" content="sunny博客" />
-<meta property="og:description" content="发布收藏一些自己喜欢的文章。" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://nagisa969.github.io/" />
-<meta itemprop="name" content="sunny博客">
-<meta itemprop="description" content="发布收藏一些自己喜欢的文章。"><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="sunny博客"/>
-<meta name="twitter:description" content="发布收藏一些自己喜欢的文章。"/>
+<meta property="og:title" content="HOGO的JANE主题添加侧边导航栏" />
+<meta property="og:description" content="Hogo的JANE主题是一款基于Hugo框架的主题，用于创建静态网站。之前用JANE主题建好站，总感觉要是有个侧边导航栏就好了，于是就寻思怎么添加一个侧边导航栏。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://nagisa969.github.io/post/docs/add-side-navigation-bar-to-hogo-jane-theme/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-01-09T09:31:38+08:00" />
+<meta property="article:modified_time" content="2024-01-09T09:31:38+08:00" />
+<meta itemprop="name" content="HOGO的JANE主题添加侧边导航栏">
+<meta itemprop="description" content="Hogo的JANE主题是一款基于Hugo框架的主题，用于创建静态网站。之前用JANE主题建好站，总感觉要是有个侧边导航栏就好了，于是就寻思怎么添加一个侧边导航栏。"><meta itemprop="datePublished" content="2024-01-09T09:31:38+08:00" />
+<meta itemprop="dateModified" content="2024-01-09T09:31:38+08:00" />
+<meta itemprop="wordCount" content="1815">
+<meta itemprop="keywords" content="blog,technical," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="HOGO的JANE主题添加侧边导航栏"/>
+<meta name="twitter:description" content="Hogo的JANE主题是一款基于Hugo框架的主题，用于创建静态网站。之前用JANE主题建好站，总感觉要是有个侧边导航栏就好了，于是就寻思怎么添加一个侧边导航栏。"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -330,7 +335,7 @@
   <ul id="menu" class="menu">
     
     
-        <li class="menu-item active">
+        <li class="menu-item">
         
           
           
@@ -488,90 +493,47 @@
 
     <div id="mobile-panel">
       <main id="main" class="main bg-llight wallpaper">
+        <div class="content-wrapper">
+    
+    <nav class="toc" id="toc">
+    <div class="toc-title">文章目录</div>
+    <div class="toc-content custom-scrollbar">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#第一步添加sidebarhtml文件">第一步：添加sidebar.html文件</a></li>
+    <li><a href="#第二步sidebarhtml内容">第二步：sidebar.html内容</a></li>
+    <li><a href="#第三步编写代码">第三步：编写代码</a>
+      <ul>
+        <li><a href="#1-sidebarhtml代码">1. sidebar.html代码</a></li>
+        <li><a href="#2-archivehtml代码">2. archive.html代码</a></li>
+        <li><a href="#3-categorieshtml代码">3. categories.html代码</a></li>
+        <li><a href="#4-tagshtml代码">4. tags.html代码</a></li>
+        <li><a href="#5-calendarhtml代码">5. calendar.html代码</a></li>
+        <li><a href="#6-_sidebarscss代码">6. _sidebar.scss代码</a></li>
+      </ul>
+    </li>
+    <li><a href="#第四步侧边栏布局">第四步：侧边栏布局</a>
+      <ul>
+        <li><a href="#1-主页添加侧边栏">1. 主页添加侧边栏</a></li>
+        <li><a href="#2-单页面添加侧边栏">2. 单页面添加侧边栏</a></li>
+      </ul>
+    </li>
+    <li><a href="#第五步运行看效果">第五步：运行看效果</a></li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav>
+    </div>
+  </nav>
+
+    
+    <div id="content" class="content">
+      <article class="post">
         
-<div class="content-wrapper">
-  <section id="posts" class="posts">
-    
-    
-      
-    
-    
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/game/the-genesis-order-v75-v84-full-story-cg-guide/">创世秩序（The Genesis Order）V75052-V84081全剧情流程CG攻略</a>
-    </h1>
-    
-
-    <div class="post-meta">
-  <div class="post-meta-author">
-    by
-      <a href="/about/">
-        <span class="post-meta-author-name">
-          sunny
-        </span>
-      </a>
-    
-  </div>
-
-  <div class="post-meta-time">
-    <time datetime="2023-12-26">
-      2023-12-26
-    </time>
-  </div>
-
-  
-
-
-  <div class="post-meta__right">
-    <span class="post-meta-more">
-        约 6784 字 -
-        预计阅读 14 分钟
-      </span>
-
-    <div class="post-meta-category">
-        <a href="http://nagisa969.github.io/categories/game/"> game </a>
+        <header class="post-header">
+          <h1 class="post-title">HOGO的JANE主题添加侧边导航栏</h1>
           
-      </div>
 
-
-    
-    
-
-
-    
-    
-  </div>
-</div>
-
-  </header>
-  
-  <div class="post-content">
-    
-      <div class="post-summary">
-        创世秩序攻略（The Genesis Order）V75052 书接上文：（V69——V75） 前往那啥用品店，触发剧情，需要找到丢失的书： 24、前往烧烤店厨房
-      </div>
-      <div class="read-more">
-        <a href="/post/game/the-genesis-order-v75-v84-full-story-cg-guide/" class="read-more-link"
-          >阅读全文</a
-        >
-      </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/game/the-genesis-order-v55-v69-full-story-cg-guide/">创世秩序（The Genesis Order）V55124-V69041全剧情流程CG攻略</a>
-    </h1>
-    
-
-    <div class="post-meta">
+          <div class="post-meta">
   <div class="post-meta-author">
     by
       <a href="/about/">
@@ -583,8 +545,8 @@
   </div>
 
   <div class="post-meta-time">
-    <time datetime="2023-12-26">
-      2023-12-26
+    <time datetime="2024-01-09">
+      2024-01-09
     </time>
   </div>
 
@@ -593,404 +555,8 @@
 
   <div class="post-meta__right">
     <span class="post-meta-more">
-        约 6377 字 -
-        预计阅读 13 分钟
-      </span>
-
-    <div class="post-meta-category">
-        <a href="http://nagisa969.github.io/categories/game/"> game </a>
-          
-      </div>
-
-
-    
-    
-
-
-    
-    
-  </div>
-</div>
-
-  </header>
-  
-  <div class="post-content">
-    
-      <div class="post-summary">
-        创世秩序攻略（The Genesis Order）V55124 跟着上面的，就把剧情流程给过一遍了，具体可看我的前作 18、接到金伯利的电话，前往电视台四楼，得
-      </div>
-      <div class="read-more">
-        <a href="/post/game/the-genesis-order-v55-v69-full-story-cg-guide/" class="read-more-link"
-          >阅读全文</a
-        >
-      </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/game/the-genesis-order-v49111-full-story-cg-guide/">创世秩序（The Genesis Order）V49111全剧情流程CG攻略全爱经收集位置</a>
-    </h1>
-    
-
-    <div class="post-meta">
-  <div class="post-meta-author">
-    by
-      <a href="/about/">
-        <span class="post-meta-author-name">
-          sunny
-        </span>
-      </a>
-    
-  </div>
-
-  <div class="post-meta-time">
-    <time datetime="2023-12-26">
-      2023-12-26
-    </time>
-  </div>
-
-  
-
-
-  <div class="post-meta__right">
-    <span class="post-meta-more">
-        约 7631 字 -
-        预计阅读 16 分钟
-      </span>
-
-    <div class="post-meta-category">
-        <a href="http://nagisa969.github.io/categories/game/"> game </a>
-          
-      </div>
-
-
-    
-    
-
-
-    
-    
-  </div>
-</div>
-
-  </header>
-  
-  <div class="post-content">
-    
-      <div class="post-summary">
-        更新了非常多的内容，且质量没有丝毫的减少，照着自己上次写的，开了全程跳过所有对话和CG，来看看自己写的有没有疏漏，有添加会记下来，但不会再写
-      </div>
-      <div class="read-more">
-        <a href="/post/game/the-genesis-order-v49111-full-story-cg-guide/" class="read-more-link"
-          >阅读全文</a
-        >
-      </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/game/the-genesis-order-v3.1-full-story-cg-guide/">创世秩序（The Genesis Order）V3.1全剧情流程CG攻略</a>
-    </h1>
-    
-
-    <div class="post-meta">
-  <div class="post-meta-author">
-    by
-      <a href="/about/">
-        <span class="post-meta-author-name">
-          sunny
-        </span>
-      </a>
-    
-  </div>
-
-  <div class="post-meta-time">
-    <time datetime="2023-12-26">
-      2023-12-26
-    </time>
-  </div>
-
-  
-
-
-  <div class="post-meta__right">
-    <span class="post-meta-more">
-        约 10139 字 -
-        预计阅读 21 分钟
-      </span>
-
-    <div class="post-meta-category">
-        <a href="http://nagisa969.github.io/categories/game/"> game </a>
-          
-      </div>
-
-
-    
-    
-
-
-    
-    
-  </div>
-</div>
-
-  </header>
-  
-  <div class="post-content">
-    
-      <div class="post-summary">
-        作者好像也是纳迪亚之宝的作者，翻列表堆里翻出来的，无论2D还是3D的建模都令人眼前一亮，堪称精美，并且3D的动作并没有生硬与bug，CG列表
-      </div>
-      <div class="read-more">
-        <a href="/post/game/the-genesis-order-v3.1-full-story-cg-guide/" class="read-more-link"
-          >阅读全文</a
-        >
-      </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/game/mhrs-gathering-hall-key-missions-hp-list/">《怪物猎人崛起：曙光》集会所全关键任务&amp;血量一览</a>
-    </h1>
-    
-
-    <div class="post-meta">
-  <div class="post-meta-author">
-    by
-      <a href="/about/">
-        <span class="post-meta-author-name">
-          sunny
-        </span>
-      </a>
-    
-  </div>
-
-  <div class="post-meta-time">
-    <time datetime="2023-12-25">
-      2023-12-25
-    </time>
-  </div>
-
-  
-
-
-  <div class="post-meta__right">
-    <span class="post-meta-more">
-        约 5039 字 -
-        预计阅读 11 分钟
-      </span>
-
-    <div class="post-meta-category">
-        <a href="http://nagisa969.github.io/categories/game/"> game </a>
-          
-      </div>
-
-
-    
-    
-
-
-    
-    
-  </div>
-</div>
-
-  </header>
-  
-  <div class="post-content">
-    
-      <div class="post-summary">
-        《怪物猎人 曙光》的关键任务和崛起设定一样，只要完成满足任务数量就能触发紧急任务到达下个阶段推进剧情等，不过这次大师会把一段等级分为2~3部分
-      </div>
-      <div class="read-more">
-        <a href="/post/game/mhrs-gathering-hall-key-missions-hp-list/" class="read-more-link"
-          >阅读全文</a
-        >
-      </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/game/mhrs-all-ally-missions-hp-list/">《怪物猎人崛起：曙光》全盟友任务&amp;血量一览</a>
-    </h1>
-    
-
-    <div class="post-meta">
-  <div class="post-meta-author">
-    by
-      <a href="/about/">
-        <span class="post-meta-author-name">
-          sunny
-        </span>
-      </a>
-    
-  </div>
-
-  <div class="post-meta-time">
-    <time datetime="2023-12-25">
-      2023-12-25
-    </time>
-  </div>
-
-  
-
-
-  <div class="post-meta__right">
-    <span class="post-meta-more">
-        约 2247 字 -
-        预计阅读 5 分钟
-      </span>
-
-    <div class="post-meta-category">
-        <a href="http://nagisa969.github.io/categories/game/"> game </a>
-          
-      </div>
-
-
-    
-    
-
-
-    
-    
-  </div>
-</div>
-
-  </header>
-  
-  <div class="post-content">
-    
-      <div class="post-summary">
-        《怪物猎人崛起：曙光》到达一定进度解锁盟友任务，可与NPC角色同行讨伐怪物，完成盟友同行的任务即可解锁NPC在重要调查任务内选择使用。 血量差
-      </div>
-      <div class="read-more">
-        <a href="/post/game/mhrs-all-ally-missions-hp-list/" class="read-more-link"
-          >阅读全文</a
-        >
-      </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/others/discover-endless-possibilities-chrome-browser-plug-in-recommendations/">发掘无限可能：Chrome浏览器插件推荐</a>
-    </h1>
-    
-
-    <div class="post-meta">
-  <div class="post-meta-author">
-    by
-      <a href="/about/">
-        <span class="post-meta-author-name">
-          sunny
-        </span>
-      </a>
-    
-  </div>
-
-  <div class="post-meta-time">
-    <time datetime="2023-12-25">
-      2023-12-25
-    </time>
-  </div>
-
-  
-
-
-  <div class="post-meta__right">
-    <span class="post-meta-more">
-        约 2515 字 -
-        预计阅读 6 分钟
-      </span>
-
-    <div class="post-meta-category">
-        <a href="http://nagisa969.github.io/categories/others/"> others </a>
-          
-      </div>
-
-
-    
-    
-
-
-    
-    
-  </div>
-</div>
-
-  </header>
-  
-  <div class="post-content">
-    
-      <div class="post-summary">
-        前言 在互联网时代，浏览器是我们访问世界的窗口，而Chrome浏览器凭借其出色的性能和丰富的插件生态系统，成为了众多用户的首选。今天，我将为大
-      </div>
-      <div class="read-more">
-        <a href="/post/others/discover-endless-possibilities-chrome-browser-plug-in-recommendations/" class="read-more-link"
-          >阅读全文</a
-        >
-      </div>
-    
-  </div>
-</article>
-
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/docs/starting-from-scratch-how-to-build-a-personal-website/">从零开始：如何搭建个人网站</a>
-    </h1>
-    
-
-    <div class="post-meta">
-  <div class="post-meta-author">
-    by
-      <a href="/about/">
-        <span class="post-meta-author-name">
-          sunny
-        </span>
-      </a>
-    
-  </div>
-
-  <div class="post-meta-time">
-    <time datetime="2023-12-22">
-      2023-12-22
-    </time>
-  </div>
-
-  
-
-
-  <div class="post-meta__right">
-    <span class="post-meta-more">
-        约 2275 字 -
-        预计阅读 5 分钟
+        约 1815 字 -
+        预计阅读 4 分钟
       </span>
 
     <div class="post-meta-category">
@@ -1008,158 +574,358 @@
   </div>
 </div>
 
-  </header>
+        </header>
+
+        
+        <div class="post-content">
+          <p>Hogo的JANE主题是一款基于Hugo框架的主题，用于创建静态网站。之前用JANE主题建好站，总感觉要是有个侧边导航栏就好了，于是就寻思怎么添加一个侧边导航栏。</p>
+<h2 id="第一步添加sidebarhtml文件">第一步：添加sidebar.html文件</h2>
+<p>Jane主题本身没有sidebar.html文件的。</p>
+<p>找到Jane主题的相关模板文件，在layouts目录下partials里创建一个sidebar.html的文件。</p>
+<h2 id="第二步sidebarhtml内容">第二步：sidebar.html内容</h2>
+<p>我思量着在sidebar里添加最近文章，分类，标签，及日历四部分，于是在partials里创建一个widgets的文件夹，分别加入archive.html，categories.html，tags.html，calendar.html。剩下的就是编写代码和CSS样式了。</p>
+<h2 id="第三步编写代码">第三步：编写代码</h2>
+<p>剩下的就是编写代码，达成想要的功能。我把写好的代码贴在下面。</p>
+<h3 id="1-sidebarhtml代码">1. sidebar.html代码</h3>
+<pre><code>&lt;nav class=&quot;sidebar&quot; id=&quot;sidebar&quot; &gt;
+  {{ partial &quot;widgets/archive&quot; . }}
+  {{ partial &quot;widgets/categories&quot; . }}
+  {{ partial &quot;widgets/tags&quot; . }}
+  {{ partial &quot;widgets/calendar&quot; . }}
+&lt;/nav&gt;
+</code></pre>
+<h3 id="2-archivehtml代码">2. archive.html代码</h3>
+<pre><code>{{ if not (eq (len site.RegularPages) 0) }}
+&lt;p class=&quot;asidetitle&quot;&gt;
+&lt;a href=&quot;{{ $.Site.BaseURL }}post/&quot;&gt;{{ .Site.Params.Strings.Archive | default &quot;最近文章&quot; }}&lt;/a&gt;
+&lt;/p&gt;
+&lt;div class=&quot;archiveslist&quot;&gt;
+{{- $recent := where .Site.RegularPages &quot;Type&quot; &quot;in&quot; .Site.Params.mainSections }}
+{{- $recent_num := (.Site.Params.widgets.recent_num | default 5) }}
+
+{{- if $recent }}
+&lt;div class=&quot;archiveslist widget&quot;&gt;
+  &lt;h4 class=&quot;widget__title&quot;&gt;{{ T &quot;recent_title&quot; }}&lt;/h4&gt;
+  &lt;div class=&quot;widget__content&quot;&gt;
+&lt;ul class=&quot;widget__list&quot;&gt;
+  {{- range first $recent_num $recent }}
+  &lt;time datetime=&quot;{{ .Date.Format &quot;2006-01-02&quot; }}&quot; class=&quot;archive-post-time&quot;&gt;
+{{ .Date.Format (.Site.Params.dateFormatToUse | default &quot;2006-01-02&quot;) }}
+  &lt;/time&gt;
+  &lt;li class=&quot;widget__item&quot;&gt;&lt;a class=&quot;widget__link&quot; href=&quot;{{ .RelPermalink }}&quot;&gt;{{ .Title }}&lt;/a&gt;&lt;/li&gt;
+  {{- end }}
+&lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+{{- end }}
+
+&lt;/div&gt;
+{{ end }}
+</code></pre>
+<h3 id="3-categorieshtml代码">3. categories.html代码</h3>
+<pre><code>{{ if isset .Site.Taxonomies &quot;categories&quot; }}
+{{ if not (eq (len .Site.Taxonomies.categories) 0) }}
+&lt;p class=&quot;asidetitle&quot;&gt;
+  &lt;a href=&quot;{{ $.Site.BaseURL }}categories/&quot;&gt;{{ .Site.Params.Strings.Categories | default &quot;分类&quot; }}&lt;/a&gt;
+&lt;/p&gt;
+&lt;div class=&quot;categorieslist&quot;&gt;
+  &lt;ul&gt;
+{{ range $name, $items := .Site.Taxonomies.categories }}
+&lt;li&gt;&lt;a href=&quot;{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}&quot; title=&quot;{{ $name }}&quot;&gt;{{ $name }}&lt;/a&gt;&lt;/li&gt;
+{{ end }}
+  &lt;/ul&gt;
+&lt;/div&gt;
+{{ end }}
+{{ end }}
+</code></pre>
+<h3 id="4-tagshtml代码">4. tags.html代码</h3>
+<pre><code>{{ if isset .Site.Taxonomies &quot;tags&quot; }}
+{{ if not (eq (len .Site.Taxonomies.tags) 0) }}
+&lt;p class=&quot;asidetitle&quot;&gt;
+  &lt;a href=&quot;{{ $.Site.BaseURL }}tags/&quot;&gt;{{ .Site.Params.Strings.TagCloud | default &quot;标签&quot; }}&lt;/a&gt;
+&lt;/p&gt;
+&lt;div class=&quot;tagcloudlist&quot;&gt;
+  &lt;div class=&quot;tagcloudlist clearfix&quot;&gt;
+{{ range $name, $items := .Site.Taxonomies.tags }}
+&lt;a href=&quot;{{ $.Site.BaseURL }}tags/{{ $name | urlize | lower  }}&quot; style=&quot;font-size: 12px;&quot;&gt;{{ $name }}&lt;/a&gt;
+{{ end }}
+  &lt;/div&gt;
+&lt;/div&gt;
+{{ end }}
+{{ end }}
+</code></pre>
+<h3 id="5-calendarhtml代码">5. calendar.html代码</h3>
+<p>日历部分比较困难，我是直接参考这个网站https://codepen.io/ovdojoey/pen/GqRxYQ，做了一些中文变动。</p>
+<h3 id="6-_sidebarscss代码">6. _sidebar.scss代码</h3>
+<p>样式文件在主题下assets/sass里。新建一个_sidebar.scss专门编写sidebar的文本样式。上面的代码用到的样式如下</p>
+<pre><code>/* Make nav sticky */
+nav.sidebar {
+  position: sticky;
+  top: 1rem;
+  width: 24em;
+}
+
+.sidebar {
+  margin-top: -1em;
+  margin-left: 3em;
+  margin-right: 3em;
+
+  a {
+text-decoration: none;
+border-bottom: 1px solid transparent;
+padding: 0.125em 0;
+// color: #ccc;
+transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+  }
+}
+
+
+.asidetitle{
+  font-size:1.1em;
+  color:#2ca6cb;
+  padding:0 0 .3125em 0;
+  border-bottom:.1875em solid #ccc;
+  font-weight: bold;
+  a{
+color:#2ca6cb;
+  }
+}
+
+
+.archiveslist {
+	
+  background-color: #fff;
+  border-radius: 5px;
+  ul,
+  ol {
+list-style: none;
+margin: 0;
+padding: 0;
+margin-top: -1em;
+margin-left: 0em;
+  }
+  li {
+padding-left: 0em;
+border-bottom: 1px dotted #ebebeb;
+.widget__link {
+  color: $theme-color;
+}
+  }
+}
+
+.categorieslist {
+	
+  background-color: #fff;
+  border-radius: 5px;
+  ul,
+  ol {
+display: inline-block;
+list-style: none;
+margin: 0;
+padding: 0;
+  }
   
-  <div class="post-content">
-    
-      <div class="post-summary">
-        在当今数字时代，拥有个人网站是展示个人品牌、分享经验和展示作品的重要途径。搭建个人网站可能听起来复杂，但随着现代技术的发展，这变得越来越容易
-      </div>
-      <div class="read-more">
-        <a href="/post/docs/starting-from-scratch-how-to-build-a-personal-website/" class="read-more-link"
-          >阅读全文</a
-        >
-      </div>
-    
-  </div>
-</article>
+  li {
 
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/game/monster-hunter-world-iceborne-full-outfit-guide/">怪物猎人世界：冰原 【全衣装篇】包括改获取指南</a>
-    </h1>
-    
+background-color: #fff;
+margin-left: .3em;
+margin-right: .3em;
+border: 1px solid #222;
+color: #222;
+float: left;
+line-height: 1.42857143;
+padding: 6px 12px;
+position: relative;
+text-decoration: none;
+margin-bottom: 0.3em;
+margin-top: 0.3em;
+  }
+}
 
-    <div class="post-meta">
-  <div class="post-meta-author">
-    by
-      <a href="/about/">
-        <span class="post-meta-author-name">
-          sunny
-        </span>
-      </a>
-    
-  </div>
+.tagcloudlist {
+	
+  background-color: #fff;
+  border-radius: 5px;
+  .clearfix {
+display: inline-block;
 
-  <div class="post-meta-time">
-    <time datetime="2023-12-22">
-      2023-12-22
-    </time>
-  </div>
+a {
+  background-color: #fff;
+  margin-left: .3em;
+  margin-right: .3em;
+  border: 1px solid #222;
+  color: #222;
+  float: left;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  position: relative;
+  text-decoration: none;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+  }
+}
 
+@include max-screen() {
+  nav.sidebar {
+display: none;
+  }
+}
+</code></pre>
+<h2 id="第四步侧边栏布局">第四步：侧边栏布局</h2>
+<p>代码样式都写好了，剩下的就是放在网站的哪里。看了一下前端主题显示，觉得放在主页和每个文章页面还有单页面的地方比较好看，其余的页面放侧边栏感觉都不好看。所以就决定在这2个地方加入侧边栏。</p>
+<h3 id="1-主页添加侧边栏">1. 主页添加侧边栏</h3>
+<p>主页的文件是index.html，在layouts文件夹下面。稍微修改下代码使板块左右展示，找了一下主题本身有的样式代码，&ldquo;content-wrapper&quot;可以直接使用，就不用再写代码了。修改后的代码如下：</p>
+<pre><code>{{ define &quot;content&quot; }}
+&lt;div class=&quot;content-wrapper&quot;&gt;
+  &lt;section id=&quot;posts&quot; class=&quot;posts&quot;&gt;
+{{ $pages := .Pages }}
+{{ if .IsHome }}
+  {{ $pages = where .Site.RegularPages &quot;Type&quot; &quot;in&quot; site.Params.mainSections }}
+{{ end }}
+{{ $paginator := .Paginate $pages }}
+{{ range $paginator.Pages }}
+  {{ .Render &quot;summary&quot; }}
+{{ end }}
+  &lt;/section&gt;
   
+  {{ block &quot;sidebar&quot; . }}{{ partial &quot;sidebar.html&quot; . }}{{ end }}
+
+&lt;/div&gt;
 
 
-  <div class="post-meta__right">
-    <span class="post-meta-more">
-        约 5918 字 -
-        预计阅读 12 分钟
-      </span>
+&lt;!-- pagination --&gt;
+{{ partial &quot;pagination.html&quot; . }}
 
-    <div class="post-meta-category">
-        <a href="http://nagisa969.github.io/categories/game/"> game </a>
-          
-      </div>
+{{ end }}
+</code></pre>
+<p>这里要在&quot;content-wrapper&quot;里调用_sidebar.scss文件，不然样式侧边栏样式不起效果。content-wrapper在_post.scss里，添加一个调用_sidebar.scss文件的代码。日历的样式代码我是新建了一个scss文件,所以这里也调用下日历的样式文件。</p>
+<pre><code>.content-wrapper {
+  display: flex;
+  justify-content: center;
+
+  @import &quot;_toc&quot;;
+  @import &quot;_sidebar&quot;;
+  @import &quot;_calendar&quot;;
+}
+</code></pre>
+<h3 id="2-单页面添加侧边栏">2. 单页面添加侧边栏</h3>
+<p>剩下的就比较简单了，单页面是single.html文件，在layouts/_default文件夹下面。如下，最后加入{{ partial &ldquo;sidebar.html&rdquo; . }}，调用下侧边栏就行了。</p>
+<pre><code>{{ define &quot;content&quot; -}}
+  &lt;div class=&quot;content-wrapper&quot;&gt;
+&lt;!-- TOC --&gt;
+{{ partial &quot;post/toc.html&quot; . }}
+
+&lt;div id=&quot;content&quot; class=&quot;content&quot;&gt;
+&lt;/div&gt;
+
+{{ partial &quot;sidebar.html&quot; . }}
+
+  &lt;/div&gt;
+{{- end }}
+</code></pre>
+<h2 id="第五步运行看效果">第五步：运行看效果</h2>
+<p>一切准备就绪，剩下的就是看下效果了。最终的显示效果就如我现在网站的展示效果了。</p>
+<h2 id="总结">总结</h2>
+<p>整体上，这个功能并不复杂，但是一些地方却占用了我不少时间。一开始也不是很懂hugo，后来查资料，看网站，最终还是如愿以偿的添加了侧边导航栏，哈哈。如果你也感兴趣的话，可以参照这些自己加一个侧边栏哦。</p>
+
+        </div>
+
+        
+        
 
 
+
+        
+        
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
     
     
-
-
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/wechat-qr-code.jpg">
+        <span>微信打赏</span>
+      </label>
     
-    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/alipay-qr-code.jpg">
+        <span>支付宝打赏</span>
+      </label>
   </div>
 </div>
 
-  </header>
-  
-  <div class="post-content">
-    
-      <div class="post-summary">
-        怪物猎人世界一共有20个的特殊装备，分别有17个特殊衣装，3个烟筒。 啥是特殊装备？咋用呢？详细衣装效果会在下面写上。 所谓的特殊装备就是官方给
-      </div>
-      <div class="read-more">
-        <a href="/post/game/monster-hunter-world-iceborne-full-outfit-guide/" class="read-more-link"
-          >阅读全文</a
-        >
-      </div>
-    
-  </div>
-</article>
 
-    
-      <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      <a class="post-link" href="/post/seo/effective-strategies-and-techniques-to-increase-website-traffic/">提高网站流量的有效策略与技巧</a>
-    </h1>
-    
-
-    <div class="post-meta">
-  <div class="post-meta-author">
-    by
-      <a href="/about/">
-        <span class="post-meta-author-name">
-          sunny
-        </span>
-      </a>
-    
-  </div>
-
-  <div class="post-meta-time">
-    <time datetime="2023-12-22">
-      2023-12-22
-    </time>
-  </div>
-
-  
+        <footer class="post-footer">
+          <div class="post-tags">
+              <a href="http://nagisa969.github.io/tags/blog/">blog</a>
+                <a href="http://nagisa969.github.io/tags/technical/">technical</a>
+                
+            </div>
 
 
-  <div class="post-meta__right">
-    <span class="post-meta-more">
-        约 1105 字 -
-        预计阅读 3 分钟
-      </span>
-
-    <div class="post-meta-category">
-        <a href="http://nagisa969.github.io/categories/seo/"> SEO </a>
           
-      </div>
+          <nav class="post-nav">
+            
+            
+              <a class="next" href="/post/game/resident-evil-4-remake-full-hidden-collection-guide/">
+                <span class="next-text nav-default">《生化危机4重制版》全隐藏收集指南攻略</span>
+                <span class="prev-text nav-mobile">下一篇</span>
+                
+                <i class="iconfont">
+                  <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+                </i>
+              </a>
+          </nav>
+        </footer>
+      </article>
+
+      
+      
 
 
-    
-    
+      
+      
 
+  
 
-    
-    
-  </div>
+  
+  
+
+  
+  
+    <div class="post">
+  <script src="https://utteranc.es/client.js"
+        repo= "nagisa969/nagisa969.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
 </div>
 
-  </header>
   
-  <div class="post-content">
-    
-      <div class="post-summary">
-        在当今数字化时代，对于网站所有者来说，吸引更多访问者并提高网站流量是至关重要的。更多的流量意味着更多的机会，可能转化为潜在客户、增加品牌知名
-      </div>
-      <div class="read-more">
-        <a href="/post/seo/effective-strategies-and-techniques-to-increase-website-traffic/" class="read-more-link"
-          >阅读全文</a
-        >
-      </div>
-    
-  </div>
-</article>
+
+  
+
+  
 
     
-  </section>
+
   
-  <nav class="sidebar" id="sidebar" >
+
+  
+
+
+    </div>
+
+    <nav class="sidebar" id="sidebar" >
   
 <p class="asidetitle">
 <a href="http://nagisa969.github.io/post/">最近文章</a>
@@ -1333,70 +1099,7 @@
 </nav>
 
 
-</div>
-
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  <nav class="pagination">
-    <ul>
-      
-      <li >
-        <a href="/">1</a>
-      </li>
-      
-      <li >
-        <a href="/page/2/">2</a>
-      </li>
-      
-      <li  class="active" >
-        <a href="/page/3/">3</a>
-      </li>
-      
-      <li >
-        <a href="/page/4/">4</a>
-      </li>
-      
-      <li >
-        <a href="/page/5/">5</a>
-      </li>
-      
-      <li >
-        <a href="/page/6/">6</a>
-      </li>
-      
-      <li >
-        <a href="/page/7/">7</a>
-      </li>
-      
-    </ul>
-  </nav>
-
-  
-  
-
-
-
-
-
+  </div>
 
       </main>
 
