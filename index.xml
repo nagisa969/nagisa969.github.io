@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sunny博客</title>
-    <link>http://nagisa969.github.io/</link>
+    <link>https://nagisa969.github.io/</link>
     <description>Recent content on sunny博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 09 Jan 2024 09:31:38 +0800</lastBuildDate>
     
-        <atom:link href="http://nagisa969.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://nagisa969.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HUGO的JANE主题添加侧边导航栏</title>
-      <link>http://nagisa969.github.io/post/docs/add-side-navigation-bar-to-hogo-jane-theme/</link>
+      <link>https://nagisa969.github.io/post/docs/add-side-navigation-bar-to-hogo-jane-theme/</link>
       <pubDate>Tue, 09 Jan 2024 09:31:38 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/docs/add-side-navigation-bar-to-hogo-jane-theme/</guid>
+      <guid>https://nagisa969.github.io/post/docs/add-side-navigation-bar-to-hogo-jane-theme/</guid>
       
         <description>&lt;p&gt;Hugo的JANE主题是一款基于Hugo框架的主题，用于创建静态网站。之前用JANE主题建好站，总感觉要是有个侧边导航栏就好了，于是就寻思怎么添加一个侧边导航栏。&lt;/p&gt;
 &lt;h2 id=&#34;第一步添加sidebarhtml文件&#34;&gt;第一步：添加sidebar.html文件&lt;/h2&gt;
@@ -274,10 +274,10 @@ display: none;
     
     <item>
       <title>《生化危机4重制版》全隐藏收集指南攻略</title>
-      <link>http://nagisa969.github.io/post/game/resident-evil-4-remake-full-hidden-collection-guide/</link>
+      <link>https://nagisa969.github.io/post/game/resident-evil-4-remake-full-hidden-collection-guide/</link>
       <pubDate>Sat, 06 Jan 2024 09:31:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/resident-evil-4-remake-full-hidden-collection-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/resident-evil-4-remake-full-hidden-collection-guide/</guid>
       
         <description>&lt;p&gt;《生化危机4重制版》游戏中有着许多隐藏武器与带有强大属性的饰品可以获取，下面带来的《生化危机4重制版》全隐藏武器收集指南，希望能帮助到大家。&lt;/p&gt;
 &lt;h2 id=&#34;获取方式&#34;&gt;获取方式&lt;/h2&gt;
@@ -319,10 +319,10 @@ display: none;
     
     <item>
       <title>亚洲之子V50.0新增内容攻略汇总</title>
-      <link>http://nagisa969.github.io/post/game/son-of-asia-v50-new-content-guide/</link>
+      <link>https://nagisa969.github.io/post/game/son-of-asia-v50-new-content-guide/</link>
       <pubDate>Fri, 05 Jan 2024 09:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/son-of-asia-v50-new-content-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/son-of-asia-v50-new-content-guide/</guid>
       
         <description>&lt;h2 id=&#34;v500-更新日志&#34;&gt;V50.0 更新日志：&lt;/h2&gt;
 &lt;h3 id=&#34;剧情&#34;&gt;&amp;lt;剧情&amp;gt;&lt;/h3&gt;
@@ -433,10 +433,10 @@ display: none;
     
     <item>
       <title>VPN能让您更安全吗？</title>
-      <link>http://nagisa969.github.io/post/vpn/vpn-make-you-more-secure/</link>
+      <link>https://nagisa969.github.io/post/vpn/vpn-make-you-more-secure/</link>
       <pubDate>Wed, 03 Jan 2024 10:31:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/vpn/vpn-make-you-more-secure/</guid>
+      <guid>https://nagisa969.github.io/post/vpn/vpn-make-you-more-secure/</guid>
       
         <description>&lt;p&gt;VPN 会加密和屏蔽您的 IP 地址，提供针对黑客的保护，同时防止 ISP 限制您的互联网速度。&lt;/p&gt;
 &lt;p&gt;还可以通过加密技术来保护自己免受中间人攻击。&lt;/p&gt;
@@ -462,10 +462,10 @@ display: none;
     
     <item>
       <title>我可以使用 VPN 进行在线赌博吗？</title>
-      <link>http://nagisa969.github.io/post/vpn/use-vpn-to-gamble-online/</link>
+      <link>https://nagisa969.github.io/post/vpn/use-vpn-to-gamble-online/</link>
       <pubDate>Wed, 03 Jan 2024 10:31:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/vpn/use-vpn-to-gamble-online/</guid>
+      <guid>https://nagisa969.github.io/post/vpn/use-vpn-to-gamble-online/</guid>
       
         <description>&lt;p&gt;在某些国家/地区，使用VPN访问赌博/投注网站是非法的，因为赌场会进行 KYC 身份检查，以筛选来自违反许可法规的国家/地区的客户。&lt;/p&gt;
 &lt;p&gt;专为在线赌博设计的高级 VPN 应提供对不同位置的众多服务器的访问，并采用不会显着降低连接速度的快速协议。&lt;/p&gt;
@@ -490,10 +490,10 @@ display: none;
     
     <item>
       <title>如何玩轮盘赌 – 提高获胜几率的三种获胜策略</title>
-      <link>http://nagisa969.github.io/post/gamble/how-to-play-roulette/</link>
+      <link>https://nagisa969.github.io/post/gamble/how-to-play-roulette/</link>
       <pubDate>Wed, 03 Jan 2024 10:19:09 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/gamble/how-to-play-roulette/</guid>
+      <guid>https://nagisa969.github.io/post/gamble/how-to-play-roulette/</guid>
       
         <description>&lt;p&gt;作为经验丰富或新手的轮盘赌玩家，学习有效的策略对于您在这款流行的赌场游戏中取得成功至关重要。在本文中，我们介绍了三种获胜技巧，可能有助于增加您在这款流行游戏中的胜算。&lt;/p&gt;
 &lt;p&gt;确保在您的资金范围内进行游戏，切勿一次性投入超过总赌注的 5%。此外，定期休息，以免过度劳累，避免承担超出您承受能力的损失。&lt;/p&gt;
@@ -523,10 +523,10 @@ display: none;
     
     <item>
       <title>写作艺术：打造高质量文章的秘诀</title>
-      <link>http://nagisa969.github.io/post/docs/the-art-of-writing/</link>
+      <link>https://nagisa969.github.io/post/docs/the-art-of-writing/</link>
       <pubDate>Wed, 03 Jan 2024 09:06:57 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/docs/the-art-of-writing/</guid>
+      <guid>https://nagisa969.github.io/post/docs/the-art-of-writing/</guid>
       
         <description>&lt;p&gt;在信息爆炸的时代，高质量的文章成为有效传递信息和表达思想的关键。无论是学术论文、新闻报道，还是个人博客，都需要具备一定的写作技巧和品质，以吸引读者并传达作者的意图。本文将深入探讨如何写一篇高质量文章的关键要素，帮助读者提升写作水平，更好地表达自己的思想。&lt;/p&gt;
 &lt;h2 id=&#34;第一步明确目的与受众&#34;&gt;第一步：明确目的与受众&lt;/h2&gt;
@@ -553,10 +553,10 @@ display: none;
     
     <item>
       <title>《怪物猎人崛起：曙光》怪异化素材</title>
-      <link>http://nagisa969.github.io/post/game/mhrs-monsterization-materials/</link>
+      <link>https://nagisa969.github.io/post/game/mhrs-monsterization-materials/</link>
       <pubDate>Tue, 02 Jan 2024 09:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/mhrs-monsterization-materials/</guid>
+      <guid>https://nagisa969.github.io/post/game/mhrs-monsterization-materials/</guid>
       
         <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;
 &lt;p&gt;当对应怪的怪异研究任务达到一定等级后。&lt;/p&gt;
@@ -707,10 +707,10 @@ display: none;
     
     <item>
       <title>诅咒铠甲（Cursed Armor）小支线、小事件攻略</title>
-      <link>http://nagisa969.github.io/post/game/cursed-armor-independent-quests-and-events-guide/</link>
+      <link>https://nagisa969.github.io/post/game/cursed-armor-independent-quests-and-events-guide/</link>
       <pubDate>Fri, 29 Dec 2023 08:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/cursed-armor-independent-quests-and-events-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/cursed-armor-independent-quests-and-events-guide/</guid>
       
         <description>&lt;h2 id=&#34;卖花少女剧情&#34;&gt;卖花少女剧情：&lt;/h2&gt;
 &lt;p&gt;1.到失落森林与史莱姆战斗，一直防御直到立绘出现白浊后带着白浊回城，在白天时到人鱼之家（酒馆）旁边的房子前与卖花少女对话，卖花少女邀请莉莉娜帮她一起卖花&lt;/p&gt;
@@ -803,10 +803,10 @@ display: none;
     
     <item>
       <title>诅咒铠甲（Cursed Armor）监狱线（支线）攻略</title>
-      <link>http://nagisa969.github.io/post/game/cursed-armor-prison-line-guide/</link>
+      <link>https://nagisa969.github.io/post/game/cursed-armor-prison-line-guide/</link>
       <pubDate>Fri, 29 Dec 2023 07:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/cursed-armor-prison-line-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/cursed-armor-prison-line-guide/</guid>
       
         <description>&lt;h2 id=&#34;监狱线&#34;&gt;监狱线：&lt;/h2&gt;
 &lt;p&gt;监狱线是支线，没有结局，玩法比较简单，就是想办法离开监狱&lt;/p&gt;
@@ -878,10 +878,10 @@ display: none;
     
     <item>
       <title>诅咒铠甲（Cursed Armor）圣兽线（支线）攻略</title>
-      <link>http://nagisa969.github.io/post/game/cursed-armor-sacred-beast-line-guide/</link>
+      <link>https://nagisa969.github.io/post/game/cursed-armor-sacred-beast-line-guide/</link>
       <pubDate>Fri, 29 Dec 2023 06:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/cursed-armor-sacred-beast-line-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/cursed-armor-sacred-beast-line-guide/</guid>
       
         <description>&lt;h2 id=&#34;圣兽线&#34;&gt;圣兽线：&lt;/h2&gt;
 &lt;p&gt;圣兽线Normal End：答应费奇永远留在神秘竞技场后达成&lt;/p&gt;
@@ -950,10 +950,10 @@ D.金马（独角兽之王）：早上摸6下，抚摸他直到他醒来
     
     <item>
       <title>诅咒铠甲（Cursed Armor）魔虫线（真结局）攻略</title>
-      <link>http://nagisa969.github.io/post/game/cursed-armor-abbadon-line-guide/</link>
+      <link>https://nagisa969.github.io/post/game/cursed-armor-abbadon-line-guide/</link>
       <pubDate>Fri, 29 Dec 2023 05:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/cursed-armor-abbadon-line-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/cursed-armor-abbadon-line-guide/</guid>
       
         <description>&lt;p&gt;&lt;strong&gt;魔虫线Bad End A&lt;/strong&gt;：亚巴顿王虫进化期间未被村民发现&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;魔虫线Bad End B&lt;/strong&gt;：亚巴顿王虫进化期间被村民发现&lt;/p&gt;
@@ -1003,10 +1003,10 @@ D.金马（独角兽之王）：早上摸6下，抚摸他直到他醒来
     
     <item>
       <title>诅咒铠甲（Cursed Armor）奴隶线（支线）攻略</title>
-      <link>http://nagisa969.github.io/post/game/cursed-armor-slave-line-guide/</link>
+      <link>https://nagisa969.github.io/post/game/cursed-armor-slave-line-guide/</link>
       <pubDate>Fri, 29 Dec 2023 04:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/cursed-armor-slave-line-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/cursed-armor-slave-line-guide/</guid>
       
         <description>&lt;h2 id=&#34;奴隶线&#34;&gt;奴隶线：&lt;/h2&gt;
 &lt;p&gt;奴隶线没有End，是一条支线，但是剧情走向比较复杂，有多种渠道开启奴隶线，也有多种方法脱离奴隶市场&lt;/p&gt;
@@ -1104,10 +1104,10 @@ D.金马（独角兽之王）：早上摸6下，抚摸他直到他醒来
     
     <item>
       <title>诅咒铠甲（Cursed Armor）公会线（支线）攻略</title>
-      <link>http://nagisa969.github.io/post/game/cursed-armor-guild-line-guide/</link>
+      <link>https://nagisa969.github.io/post/game/cursed-armor-guild-line-guide/</link>
       <pubDate>Fri, 29 Dec 2023 03:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/cursed-armor-guild-line-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/cursed-armor-guild-line-guide/</guid>
       
         <description>&lt;p&gt;公会线是支线，但同时也是魔虫线的主线前置之一，完成后可以触发奴隶线的公主剧情。&lt;/p&gt;
 &lt;p&gt;公会线开启的条件是完成&lt;strong&gt;催眠线-强奸魔线&lt;/strong&gt;和&lt;strong&gt;地下水脉线&lt;/strong&gt;，并与会长互动。&lt;/p&gt;
@@ -1143,10 +1143,10 @@ D.金马（独角兽之王）：早上摸6下，抚摸他直到他醒来
     
     <item>
       <title>诅咒铠甲（Cursed Armor）催眠线（支线）攻略</title>
-      <link>http://nagisa969.github.io/post/game/cursed-armor-hypnosis-line-guide/</link>
+      <link>https://nagisa969.github.io/post/game/cursed-armor-hypnosis-line-guide/</link>
       <pubDate>Fri, 29 Dec 2023 02:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/cursed-armor-hypnosis-line-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/cursed-armor-hypnosis-line-guide/</guid>
       
         <description>&lt;h2 id=&#34;催眠线各结局达成条件&#34;&gt;催眠线各结局达成条件：&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;催眠线（学院线）Bad End A&lt;/strong&gt;：进入学院后30天内未能获得5000银能或与贝莉卡最终战战败后达成&lt;/p&gt;
@@ -1232,10 +1232,10 @@ D.金马（独角兽之王）：早上摸6下，抚摸他直到他醒来
     
     <item>
       <title>诅咒铠甲（Cursed Armor）遗迹线（主线）攻略</title>
-      <link>http://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/</link>
+      <link>https://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/</link>
       <pubDate>Fri, 29 Dec 2023 01:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/</guid>
       
         <description>&lt;h2 id=&#34;遗迹线各结局达成条件&#34;&gt;遗迹线各结局达成条件：&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Normal End&lt;/strong&gt;:帝国遗迹最终战前，灵魂契约 = 6。&lt;/p&gt;
@@ -1307,10 +1307,10 @@ D.金马（独角兽之王）：早上摸6下，抚摸他直到他醒来
     
     <item>
       <title>诅咒铠甲（Cursed Armor）完整流程攻略二</title>
-      <link>http://nagisa969.github.io/post/game/cursed-armor-guide-2/</link>
+      <link>https://nagisa969.github.io/post/game/cursed-armor-guide-2/</link>
       <pubDate>Thu, 28 Dec 2023 10:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/cursed-armor-guide-2/</guid>
+      <guid>https://nagisa969.github.io/post/game/cursed-armor-guide-2/</guid>
       
         <description>&lt;h2 id=&#34;寄生线&#34;&gt;寄生线&lt;/h2&gt;
 &lt;p&gt;这将是一个简短的任务，触发它的条件并不多。你只需要接受“收集寄生虫卵”任务并前往洞穴即可。与警卫交谈，让他让你通过并前往地铁。探索它，莉莉娜会看到一个有很多鸡蛋的区域。尝试到达它，你会掉到第二层地下。如果你玩简单模式，在吊舱的左侧有一个看不见的遗物箱（尝试在每个箱子上行走，直到撞到其中一个，箱子就在这里）。现在，离开这里去见见来到这里的前公会成员艾莎。她会说你逃不掉……别听她的话，尝试通过《触手藤蔓》逃出去……你会失败并回到寄生虫巢穴。当你醒来时，你会被感染并且赤身裸体。探索地板并检查每个圆圈。你会发现你无法逃脱，所以&amp;hellip;&amp;hellip;要有耐心，直到你生出寄生虫。为此，每天每夜，与 3 个寄生虫交谈，吸吮它们并喂养自己。第三天，你的寄生虫诞生了，艾莎会带你到一个豆荚处。按照过场动画，您将再次拥有 3 个怀孕天。每天一夜吸 3 个寄生虫，然后在莉莉娜要求时前往豆荚。最后，你的寄生虫王将会诞生。你可以用欲望技能召唤和取消召唤他（花费 500 sp！）。当他在你的头上时，这种寄生虫会操你的嘴（但无论如何你都可以说话），每次高潮都意味着他会感染你。现在，让他在头上，你需要他的帮助才能出去。过场动画结束后，与寄生虫国王交谈并做出选择：杀死他或说服他放过艾莎（他会如此信任你&amp;hellip;&amp;hellip;）。艾莎会在你离开之前给你她的项链。现在，这条线已经结束了。出去，取消召唤寄生虫并服用杀虫剂（如果你过夜，你身上就会有寄生虫，而且你不能和他们一起穿西装&amp;hellip;&amp;hellip;所以如果警卫看到你，他会把你送进监狱。 ..如果你让寄生虫控制，你就会回到寄生虫巢穴&amp;hellip;但现在，这没什么大不了的。无论如何，当你可以避免这种不舒服的情况时，你需要使用杀虫剂。）&lt;/p&gt;
@@ -1429,10 +1429,10 @@ D.金马（独角兽之王）：早上摸6下，抚摸他直到他醒来
     
     <item>
       <title>诅咒铠甲（Cursed Armor）完整流程攻略一</title>
-      <link>http://nagisa969.github.io/post/game/cursed-armor-guide/</link>
+      <link>https://nagisa969.github.io/post/game/cursed-armor-guide/</link>
       <pubDate>Thu, 28 Dec 2023 09:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/cursed-armor-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/cursed-armor-guide/</guid>
       
         <description>&lt;h2 id=&#34;序言线&#34;&gt;序言线&lt;/h2&gt;
 &lt;p&gt;序言是游戏的第一部分，我们看到莉莉娜在游戏真正开始之前发生了什么。玩家可以跳过序言：他们可以在选择难度级别后做出选择。&lt;/p&gt;
@@ -1617,10 +1617,10 @@ D.金马（独角兽之王）：早上摸6下，抚摸他直到他醒来
     
     <item>
       <title>诅咒铠甲2（Cursed Armor2）V4.55完整流程攻略</title>
-      <link>http://nagisa969.github.io/post/game/curse-armor2-v4.55-complete-process-guide/</link>
+      <link>https://nagisa969.github.io/post/game/curse-armor2-v4.55-complete-process-guide/</link>
       <pubDate>Wed, 27 Dec 2023 10:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/curse-armor2-v4.55-complete-process-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/curse-armor2-v4.55-complete-process-guide/</guid>
       
         <description>&lt;p&gt;游戏只有一种GOOD END：索菲亚拥有第一次打败魔王，两次选择不杀贝莉卡(圣物线，拿水神的结晶，在败给三蛇女的战斗后，对话旁边的女NPC巴赫娜，会告诉你为什么打败魔王必须是第一次的原因)，本结局选项有三种：①嫁给费迪南，②跟珍妮结婚(第一次还是费迪南)，③谁都不嫁。每种选项结果都有不同标签和魔女王称号获得以及魔女王变身，GOOD END之后不再选择是否进入下周目，只有BAD END才有选择①交出失败记忆一次，重生到BAD END剧情线路之前 ②进入下周目 ③彻底GAME OVER 。至少需要五周目左右才能搜集全要素，每次BAD END也会有称号或标签或结晶物奖励。&lt;/p&gt;
 &lt;p&gt;圣物线剧情的终结即游戏的通关(寻找漆黑的宝石和祭坛解除封印)，拥有第一次打败困难模式的魔王要素：索菲亚未变身等级50+(开启下周目将继承所有等级)，魅魔变身等级50+，其他变身不需要刻意去练，剧情会增加一些变身的等级(其他变身等级低也可以刷夜晚模式升级)，妖果准备500+(差不多需要五次打败魔王)。妖果的快速结果需要在神牛山，即寻找神牛的断角任务打赢boss得大地精华，以及在冰之神殿，即寻找冰晶的花朵任务打赢boss得冰水精华&lt;/p&gt;
@@ -1698,10 +1698,10 @@ D.金马（独角兽之王）：早上摸6下，抚摸他直到他醒来
     
     <item>
       <title>创世秩序（The Genesis Order）密码图纸全爱经收集攻略</title>
-      <link>http://nagisa969.github.io/post/game/the-genesis-order-password-drawing-kama-sutra-collection-guide/</link>
+      <link>https://nagisa969.github.io/post/game/the-genesis-order-password-drawing-kama-sutra-collection-guide/</link>
       <pubDate>Wed, 27 Dec 2023 09:15:29 +0800</pubDate>
       
-      <guid>http://nagisa969.github.io/post/game/the-genesis-order-password-drawing-kama-sutra-collection-guide/</guid>
+      <guid>https://nagisa969.github.io/post/game/the-genesis-order-password-drawing-kama-sutra-collection-guide/</guid>
       
         <description>&lt;h2 id=&#34;图纸&#34;&gt;图纸：&lt;/h2&gt;
 &lt;h3 id=&#34;1电缆绳索&#34;&gt;1、电缆绳索&lt;/h3&gt;
