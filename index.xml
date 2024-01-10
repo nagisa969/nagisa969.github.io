@@ -12,13 +12,13 @@
     
     
     <item>
-      <title>HOGO的JANE主题添加侧边导航栏</title>
+      <title>HUGO的JANE主题添加侧边导航栏</title>
       <link>http://nagisa969.github.io/post/docs/add-side-navigation-bar-to-hogo-jane-theme/</link>
       <pubDate>Tue, 09 Jan 2024 09:31:38 +0800</pubDate>
       
       <guid>http://nagisa969.github.io/post/docs/add-side-navigation-bar-to-hogo-jane-theme/</guid>
       
-        <description>&lt;p&gt;Hogo的JANE主题是一款基于Hugo框架的主题，用于创建静态网站。之前用JANE主题建好站，总感觉要是有个侧边导航栏就好了，于是就寻思怎么添加一个侧边导航栏。&lt;/p&gt;
+        <description>&lt;p&gt;Hugo的JANE主题是一款基于Hugo框架的主题，用于创建静态网站。之前用JANE主题建好站，总感觉要是有个侧边导航栏就好了，于是就寻思怎么添加一个侧边导航栏。&lt;/p&gt;
 &lt;h2 id=&#34;第一步添加sidebarhtml文件&#34;&gt;第一步：添加sidebar.html文件&lt;/h2&gt;
 &lt;p&gt;Jane主题本身没有sidebar.html文件的。&lt;/p&gt;
 &lt;p&gt;找到Jane主题的相关模板文件，在layouts目录下partials里创建一个sidebar.html的文件。&lt;/p&gt;
