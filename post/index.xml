@@ -6,14 +6,23 @@
     <description>Recent content in Posts on sunny博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 29 Feb 2024 09:15:29 +0800</lastBuildDate><atom:link href="https://nagisa969.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 09:31:38 +0800</lastBuildDate><atom:link href="https://nagisa969.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wordpress目录结构，数据表 </title>
+      <link>https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/</link>
+      <pubDate>Fri, 15 Mar 2024 09:31:38 +0800</pubDate>
+      
+      <guid>https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/</guid>
+      <description>1，Wordpress目录结构 根目录 index.php：wordpress核心索引文件，即博客输出文件。 license.txt：WordPr</description>
+    </item>
+    
     <item>
       <title>SOA亚洲之子V60.0e最终大结局新增内容攻略汇总</title>
       <link>https://nagisa969.github.io/post/game/son-of-asia-v60-new-content-guide/</link>
       <pubDate>Thu, 29 Feb 2024 09:15:29 +0800</pubDate>
       
       <guid>https://nagisa969.github.io/post/game/son-of-asia-v60-new-content-guide/</guid>
-      <description>V60.0e 更新日志： &amp;lt;剧情&amp;gt; 1.新增了波多野结衣(教育部长)的新剧情，包含164+视频，16+事件 2.新增了田中瞳(市长)的新剧情，包含</description>
+      <description>V60.0e 更新日志： &amp;lt;剧情&amp;gt; 新增了波多野结衣(教育部长)的新剧情，包含164+视频，16+事件 新增了田中瞳(市长)的新剧情，包含166+</description>
     </item>
     
     <item>
@@ -176,15 +185,6 @@
       
       <guid>https://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/</guid>
       <description>遗迹线各结局达成条件： Normal End:帝国遗迹最终战前，灵魂契约 = 6。 Good End A:帝国遗迹最终战前，灵魂契约 &amp;lt; 6，处女并获得公会雇佣兵给的2样道具（多</description>
-    </item>
-    
-    <item>
-      <title>诅咒铠甲（Cursed Armor）完整流程攻略二</title>
-      <link>https://nagisa969.github.io/post/game/cursed-armor-guide-2/</link>
-      <pubDate>Thu, 28 Dec 2023 10:15:29 +0800</pubDate>
-      
-      <guid>https://nagisa969.github.io/post/game/cursed-armor-guide-2/</guid>
-      <description>寄生线 这将是一个简短的任务，触发它的条件并不多。你只需要接受“收集寄生虫卵”任务并前往洞穴即可。与警卫交谈，让他让你通过并前往地铁。探索它，</description>
     </item>
     
   </channel>

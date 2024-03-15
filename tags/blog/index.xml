@@ -6,7 +6,16 @@
     <description>Recent content in blog on sunny博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 09 Jan 2024 09:31:38 +0800</lastBuildDate><atom:link href="https://nagisa969.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 09:31:38 +0800</lastBuildDate><atom:link href="https://nagisa969.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wordpress目录结构，数据表 </title>
+      <link>https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/</link>
+      <pubDate>Fri, 15 Mar 2024 09:31:38 +0800</pubDate>
+      
+      <guid>https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/</guid>
+      <description>1，Wordpress目录结构 根目录 index.php：wordpress核心索引文件，即博客输出文件。 license.txt：WordPr</description>
+    </item>
+    
     <item>
       <title>HUGO的JANE主题添加侧边导航栏</title>
       <link>https://nagisa969.github.io/post/docs/add-side-navigation-bar-to-hogo-jane-theme/</link>
@@ -176,15 +185,6 @@
       
       <guid>https://nagisa969.github.io/post/game/the-genesis-order-v55-v69-full-story-cg-guide/</guid>
       <description>创世秩序攻略（The Genesis Order）V55124 跟着上面的，就把剧情流程给过一遍了，具体可看我的前作 18、接到金伯利的电话，前往电视台四楼，得</description>
-    </item>
-    
-    <item>
-      <title>创世秩序（The Genesis Order）V49111全剧情流程CG攻略全爱经收集位置</title>
-      <link>https://nagisa969.github.io/post/game/the-genesis-order-v49111-full-story-cg-guide/</link>
-      <pubDate>Tue, 26 Dec 2023 10:31:29 +0800</pubDate>
-      
-      <guid>https://nagisa969.github.io/post/game/the-genesis-order-v49111-full-story-cg-guide/</guid>
-      <description>更新了非常多的内容，且质量没有丝毫的减少，照着自己上次写的，开了全程跳过所有对话和CG，来看看自己写的有没有疏漏，有添加会记下来，但不会再写</description>
     </item>
     
   </channel>
