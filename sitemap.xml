@@ -4,21 +4,63 @@
   
   <url>
     <loc>https://www.sunnybrook-ai.com/tags/blog/</loc>
-    <lastmod>2024-03-27T09:06:57+08:00</lastmod>
+    <lastmod>2024-04-01T10:40:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.sunnybrook-ai.com/categories/</loc>
-    <lastmod>2024-10-15T09:15:29+08:00</lastmod>
+    <lastmod>2024-04-01T10:40:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sunnybrook-ai.com/tags/game/</loc>
+    <lastmod>2024-04-01T10:40:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sunnybrook-ai.com/categories/game/</loc>
+    <lastmod>2024-04-01T10:40:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.sunnybrook-ai.com/post/</loc>
-    <lastmod>2024-10-15T09:15:29+08:00</lastmod>
+    <lastmod>2024-04-01T10:40:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sunnybrook-ai.com/</loc>
+    <lastmod>2024-04-01T10:40:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sunnybrook-ai.com/tags/</loc>
+    <lastmod>2024-04-01T10:40:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sunnybrook-ai.com/tags/%E5%88%9B%E4%B8%96%E7%A7%A9%E5%BA%8F/</loc>
+    <lastmod>2024-04-01T10:40:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sunnybrook-ai.com/post/game/the-genesis-order-v87-v94-full-story-cg-guide-/</loc>
+    <lastmod>2024-04-01T10:40:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -33,20 +75,6 @@
   <url>
     <loc>https://www.sunnybrook-ai.com/categories/seo/</loc>
     <lastmod>2024-03-27T09:06:57+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sunnybrook-ai.com/</loc>
-    <lastmod>2024-10-15T09:15:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sunnybrook-ai.com/tags/</loc>
-    <lastmod>2024-10-15T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -80,20 +108,6 @@
   </url>
   
   <url>
-    <loc>https://www.sunnybrook-ai.com/tags/game/</loc>
-    <lastmod>2024-10-15T09:15:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sunnybrook-ai.com/categories/game/</loc>
-    <lastmod>2024-10-15T09:15:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.sunnybrook-ai.com/post/game/son-of-asia-v60-new-content-guide/</loc>
     <lastmod>2024-02-29T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -116,14 +130,14 @@
   
   <url>
     <loc>https://www.sunnybrook-ai.com/post/game/mhwi-master-level-main-story-mission-overview/</loc>
-    <lastmod>2024-10-15T09:15:29+08:00</lastmod>
+    <lastmod>2024-01-15T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://www.sunnybrook-ai.com/tags/%E6%80%AA%E7%89%A9%E7%8C%8E%E4%BA%BA%E4%B8%96%E7%95%8C/</loc>
-    <lastmod>2024-10-15T09:15:29+08:00</lastmod>
+    <lastmod>2024-01-15T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -320,13 +334,6 @@
   <url>
     <loc>https://www.sunnybrook-ai.com/post/game/curse-armor2-v4.55-complete-process-guide/</loc>
     <lastmod>2023-12-27T10:15:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sunnybrook-ai.com/tags/%E5%88%9B%E4%B8%96%E7%A7%A9%E5%BA%8F/</loc>
-    <lastmod>2023-12-27T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
