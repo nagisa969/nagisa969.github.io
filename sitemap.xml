@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.sunnybrook-ai.com/post/game/son-of-asia-v60-new-content-guide/</loc>
+    <lastmod>2024-02-29T09:15:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://www.sunnybrook-ai.com/tags/blog/</loc>
     <lastmod>2024-04-01T10:40:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -117,13 +124,6 @@
   <url>
     <loc>https://www.sunnybrook-ai.com/post/docs/wordpress-directory-structure-data-table/</loc>
     <lastmod>2024-03-15T09:31:38+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.sunnybrook-ai.com/post/game/son-of-asia-v60-new-content-guide/</loc>
-    <lastmod>2024-02-29T09:15:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
