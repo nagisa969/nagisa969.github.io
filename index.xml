@@ -6,7 +6,7 @@
     <description>Recent content on Sunny博客 - SEO和游戏的爱好者乐园</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 02 Apr 2024 09:31:29 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2024 09:31:29 +0800</lastBuildDate>
     
         <atom:link href="https://www.sunnybrook-ai.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -134,6 +134,42 @@
 &lt;p&gt;3、帝国集团-写真摄影室-周五刷出椎名空拍写真。&lt;/p&gt;
 &lt;p&gt;4、大别墅-走廊-出现椎名空的房间-大战后重复进入交谈提出一起去见她妈。&lt;/p&gt;
 &lt;p&gt;5、沉思酒庄三楼再次探访椎名空选有人来了，达成她和Tia的双人结局。&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>VPN（Virtual Private Network）：优势与劣势</title>
+      <link>https://www.sunnybrook-ai.com/post/vpn/vpn-advantages-and-disadvantages/</link>
+      <pubDate>Wed, 10 Apr 2024 09:31:29 +0800</pubDate>
+      
+      <guid>https://www.sunnybrook-ai.com/post/vpn/vpn-advantages-and-disadvantages/</guid>
+      
+        <description>&lt;p&gt;在当今数字化时代，隐私保护和网络安全问题备受关注。为了确保个人和企业数据的安全性，VPN（Virtual Private Network，虚拟专用网络）被广泛使用。它是一种通过公共网络建立加密连接的技术，为用户提供了安全的网络访问方式。然而，就像任何技术一样，VPN也有其优势和劣势。本文将探讨VPN的优势与劣势，以便读者更好地了解其使用的利与弊。&lt;/p&gt;
+&lt;h2 id=&#34;优势&#34;&gt;优势：&lt;/h2&gt;
+&lt;h3 id=&#34;1-数据加密和隐私保护&#34;&gt;1. 数据加密和隐私保护：&lt;/h3&gt;
+&lt;p&gt;VPN通过加密用户与服务器之间的通信，使得用户在使用公共Wi-Fi等不安全网络时也能确保数据的安全传输。这种加密技术有效地保护了个人隐私和敏感信息，使得用户可以安心地进行在线活动而不用担心数据被窃取或监视。&lt;/p&gt;
+&lt;h3 id=&#34;2-绕过地理限制&#34;&gt;2. 绕过地理限制：&lt;/h3&gt;
+&lt;p&gt;许多网站和流媒体平台根据用户所在地区的IP地址限制其内容的访问。VPN允许用户模拟位于其他国家或地区的IP地址，从而绕过这些地理限制，访问被屏蔽或限制的内容，为用户提供更广泛的网络体验。&lt;/p&gt;
+&lt;h3 id=&#34;3-访问公司内部网络&#34;&gt;3. 访问公司内部网络：&lt;/h3&gt;
+&lt;p&gt;对于企业用户来说，VPN提供了一种安全的远程访问公司内部网络的方式。员工可以通过VPN连接到公司的内部服务器，访问共享文件、内部网站和应用程序，而无需暴露敏感信息于公共网络之中。&lt;/p&gt;
+&lt;h3 id=&#34;4-匿名性&#34;&gt;4. 匿名性：&lt;/h3&gt;
+&lt;p&gt;VPN使用户的IP地址被替换为服务器的IP地址，从而隐藏了用户的真实身份和位置。这为用户提供了一定程度的匿名性，使其在互联网上更难被跟踪和识别。&lt;/p&gt;
+&lt;h3 id=&#34;5-抵御网络监控和审查&#34;&gt;5. 抵御网络监控和审查：&lt;/h3&gt;
+&lt;p&gt;在一些国家和地区，政府对互联网进行严格的监控和审查。使用VPN可以有效地绕过这些监控和审查，让用户在互联网上享有更自由的访问权利，不受到地方政府的干预和限制。&lt;/p&gt;
+&lt;h2 id=&#34;劣势&#34;&gt;劣势：&lt;/h2&gt;
+&lt;h3 id=&#34;1-降低网络速度&#34;&gt;1. 降低网络速度：&lt;/h3&gt;
+&lt;p&gt;由于VPN将用户的数据流量加密并通过远程服务器进行传输，这可能导致一定程度的网络速度下降。特别是在连接到远程服务器较远的情况下，延迟会更加明显，影响用户的网络体验，尤其是在观看高清视频或进行大文件传输时。&lt;/p&gt;
+&lt;h3 id=&#34;2-信任问题&#34;&gt;2. 信任问题：&lt;/h3&gt;
+&lt;p&gt;选择一个可靠的VPN服务提供商至关重要，因为用户需要信任其不会滥用其访问权限或窥探用户的在线活动。然而，一些免费的VPN服务可能存在潜在的风险，如记录用户的活动数据、向第三方出售用户信息等。因此，用户必须谨慎选择VPN服务，并确保选择具有良好声誉和可靠隐私政策的服务提供商。&lt;/p&gt;
+&lt;h3 id=&#34;3-服务可用性和稳定性&#34;&gt;3. 服务可用性和稳定性：&lt;/h3&gt;
+&lt;p&gt;有时，VPN服务可能会出现连接问题、服务器故障或其他技术故障，导致用户无法正常使用VPN连接。这可能会对用户的工作和在线活动造成影响，尤其是对于依赖VPN进行远程工作或访问地理限制内容的用户来说，这种影响可能会更为显著。&lt;/p&gt;
+&lt;h3 id=&#34;4-成本&#34;&gt;4. 成本：&lt;/h3&gt;
+&lt;p&gt;虽然有一些免费的VPN服务可供选择，但通常这些免费服务会降低用户体验，如限制带宽、显示广告、限制服务器数量等。而更好的VPN服务通常需要用户支付订阅费用。因此，对于一些用户来说，VPN服务可能会带来一定的经济负担。&lt;/p&gt;
+&lt;h3 id=&#34;5-安全性风险&#34;&gt;5. 安全性风险：&lt;/h3&gt;
+&lt;p&gt;尽管VPN可以提供加密保护，但也存在一些安全隐患。例如，一些安全性较低的VPN服务可能会存在漏洞或被黑客攻击，导致用户的数据被泄露或盗用。此外，一些政府或恶意组织可能会试图破解VPN的加密算法，从而获取用户的敏感信息。&lt;/p&gt;
+&lt;h2 id=&#34;结论&#34;&gt;结论：&lt;/h2&gt;
+&lt;p&gt;综上所述，VPN作为一种网络安全和隐私保护工具，具有诸多优势，如数据加密、绕过地理限制、访问公司内部网络等。然而，它也存在一些劣势，如降低网络速度、信任问题、服务可用性和稳定性等。因此，在使用VPN时，用户应权衡其利与弊，选择适合自己需求和预算的VPN服务，并采取适当的安全措施，以确保其网络活动的安全性和隐私保护。&lt;/p&gt;
 </description>
       
     </item>
@@ -2548,14 +2584,14 @@ display: none;
 &lt;p&gt;神器-毒瘾无效：奴隶市场斗技场后方井边&lt;/p&gt;
 &lt;p&gt;神器-烙印无效：击败狼神获得（魔虫线True End B）&lt;/p&gt;
 &lt;h2 id=&#34;其他攻略&#34;&gt;其他攻略：&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/&#34;&gt;遗迹线：【诅咒铠甲】遗迹线（主线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-hypnosis-line-guide/&#34;&gt;催眠线：【诅咒铠甲】催眠线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-guild-line-guide/&#34;&gt;公会线：【诅咒铠甲】公会线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-slave-line-guide/&#34;&gt;奴隶线：【诅咒铠甲】奴隶线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-abbadon-line-guide/&#34;&gt;魔虫线：【诅咒铠甲】魔虫线（真结局）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-sacred-beast-line-guide/&#34;&gt;圣兽线：【诅咒铠甲】圣兽线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-prison-line-guide/&#34;&gt;监狱线：【诅咒铠甲】监狱线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-independent-quests-and-events-guide/&#34;&gt;小支线、小事件：【诅咒铠甲】小支线、小事件攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-relic-line-guide/&#34;&gt;遗迹线：【诅咒铠甲】遗迹线（主线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-hypnosis-line-guide/&#34;&gt;催眠线：【诅咒铠甲】催眠线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-guild-line-guide/&#34;&gt;公会线：【诅咒铠甲】公会线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-slave-line-guide/&#34;&gt;奴隶线：【诅咒铠甲】奴隶线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-abbadon-line-guide/&#34;&gt;魔虫线：【诅咒铠甲】魔虫线（真结局）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-sacred-beast-line-guide/&#34;&gt;圣兽线：【诅咒铠甲】圣兽线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-prison-line-guide/&#34;&gt;监狱线：【诅咒铠甲】监狱线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-independent-quests-and-events-guide/&#34;&gt;小支线、小事件：【诅咒铠甲】小支线、小事件攻略&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
@@ -2623,14 +2659,14 @@ display: none;
 &lt;p&gt;5.隔天可以再次找狱霸互动，如果不去就会触发剧情（男囚回忆收集）&lt;/p&gt;
 &lt;p&gt;5.FAQING状态下与守卫对话会有剧情（强袭回忆收集）&lt;/p&gt;
 &lt;h2 id=&#34;其他攻略&#34;&gt;其他攻略：&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/&#34;&gt;遗迹线：【诅咒铠甲】遗迹线（主线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-hypnosis-line-guide/&#34;&gt;催眠线：【诅咒铠甲】催眠线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-guild-line-guide/&#34;&gt;公会线：【诅咒铠甲】公会线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-slave-line-guide/&#34;&gt;奴隶线：【诅咒铠甲】奴隶线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-abbadon-line-guide/&#34;&gt;魔虫线：【诅咒铠甲】魔虫线（真结局）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-sacred-beast-line-guide/&#34;&gt;圣兽线：【诅咒铠甲】圣兽线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-prison-line-guide/&#34;&gt;监狱线：【诅咒铠甲】监狱线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-independent-quests-and-events-guide/&#34;&gt;小支线、小事件：【诅咒铠甲】小支线、小事件攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-relic-line-guide/&#34;&gt;遗迹线：【诅咒铠甲】遗迹线（主线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-hypnosis-line-guide/&#34;&gt;催眠线：【诅咒铠甲】催眠线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-guild-line-guide/&#34;&gt;公会线：【诅咒铠甲】公会线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-slave-line-guide/&#34;&gt;奴隶线：【诅咒铠甲】奴隶线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-abbadon-line-guide/&#34;&gt;魔虫线：【诅咒铠甲】魔虫线（真结局）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-sacred-beast-line-guide/&#34;&gt;圣兽线：【诅咒铠甲】圣兽线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-prison-line-guide/&#34;&gt;监狱线：【诅咒铠甲】监狱线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-independent-quests-and-events-guide/&#34;&gt;小支线、小事件：【诅咒铠甲】小支线、小事件攻略&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
@@ -2695,67 +2731,14 @@ D.金马（独角兽之王）：早上摸6下，抚摸他直到他醒来
 &lt;p&gt;1.多次进行特训后骑术会到36，达到骑术瓶颈，然后马特会告诉莉莉娜特训已经没用了，但是如果你选择坚持特训，马特会亲自对莉莉娜进行特训&lt;/p&gt;
 &lt;p&gt;2.成为SHOUQI后晚上睡前会出现选项，如果到白雪宿舍偷吃过她的食物，再吃自己的食物，晚上睡前选择与独角兽亲热，第5天会发现自己的食物被动了手脚，往后吃自己的食物会多出一个选项&lt;/p&gt;
 &lt;h2 id=&#34;其他攻略&#34;&gt;其他攻略：&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/&#34;&gt;遗迹线：【诅咒铠甲】遗迹线（主线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-hypnosis-line-guide/&#34;&gt;催眠线：【诅咒铠甲】催眠线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-guild-line-guide/&#34;&gt;公会线：【诅咒铠甲】公会线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-slave-line-guide/&#34;&gt;奴隶线：【诅咒铠甲】奴隶线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-abbadon-line-guide/&#34;&gt;魔虫线：【诅咒铠甲】魔虫线（真结局）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-sacred-beast-line-guide/&#34;&gt;圣兽线：【诅咒铠甲】圣兽线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-prison-line-guide/&#34;&gt;监狱线：【诅咒铠甲】监狱线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-independent-quests-and-events-guide/&#34;&gt;小支线、小事件：【诅咒铠甲】小支线、小事件攻略&lt;/a&gt;&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
-      <title>诅咒铠甲（Cursed Armor）魔虫线（真结局）攻略</title>
-      <link>https://www.sunnybrook-ai.com/post/game/cursed-armor-abbadon-line-guide/</link>
-      <pubDate>Fri, 29 Dec 2023 05:15:29 +0800</pubDate>
-      
-      <guid>https://www.sunnybrook-ai.com/post/game/cursed-armor-abbadon-line-guide/</guid>
-      
-        <description>&lt;p&gt;&lt;strong&gt;魔虫线Bad End A&lt;/strong&gt;：亚巴顿王虫进化期间未被村民发现&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;魔虫线Bad End B&lt;/strong&gt;：亚巴顿王虫进化期间被村民发现&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;魔虫线True End&lt;/strong&gt;：亚巴顿虫王进化前3天，发现异常并收集500银能进入银魔领域&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;由于还有隐藏结局，建议一周目就魔虫线Bad End A，获得亚巴顿完全体，二周目后再魔虫线True End，真结局其实有True End A和True End B&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2 id=&#34;魔虫线流程&#34;&gt;魔虫线流程：&lt;/h2&gt;
-&lt;p&gt;1.完成催眠线完美结局，开启魔虫线&lt;/p&gt;
-&lt;p&gt;2.完成公会线，在公会前台接取第三公主任务，开启奴隶线&lt;/p&gt;
-&lt;p&gt;3.奴隶线-第三公主任务无论成败，返回公会后拿100w给梅丽莎打听“神力”的情报&lt;/p&gt;
-&lt;p&gt;4.获得情报后，在安维尔港口西边沙滩的墙壁裂缝里可以直接拿到魔石&lt;/p&gt;
-&lt;p&gt;5.实在找不到魔石就走监狱线，脱下全部装备到安维尔城门口，会有守卫冲过来逮捕莉莉娜，触发监狱线，监狱线建议走越狱路线，因为魔石刚好在越狱路上，墙上裂缝会有亮光提示&lt;/p&gt;
-&lt;p&gt;6.拿到魔石后，先完成寄生虫线（可参考小支线攻略）获得虫王，然后到北方的小岛村旅馆住宿到晚上，晚上到魔镜入口放入魔石进入魔镜调查&lt;/p&gt;
-&lt;p&gt;7.头上不佩戴寄生虫王，在魔镜里面随便走走就会被亚巴顿魔虫寄生，然后退出魔镜，让西西莉亚治疗（佩戴了虫王就会与亚巴顿魔虫战斗，调查了魔镜里的苗床柱子才会被寄生）&lt;/p&gt;
-&lt;p&gt;8.到村子里的旅馆租房休息，会触发剧情住到破房子里，破房子里左边拿水囊打水，晚上出去偷食物，到西北方向的湖边打水，注意不要被村民发现，被村民发现就是魔虫线Bad End B&lt;/p&gt;
-&lt;p&gt;9.食物可以放到破房子左边箱子里，水可以放到右边的水桶&lt;/p&gt;
-&lt;p&gt;10.第二天晚上再偷食物回来睡觉，就会触发剧情，提示是否服用抗性药，抗性药只有3支，只能坚持3天，所以需要在3天内收集500银能。如果坚持不吃药就是魔虫线Bad End A&lt;/p&gt;
-&lt;p&gt;11.准备好足够的CHUN药，没有CHUN药的可以在村子里东北方向的医生处购买，200一瓶&lt;/p&gt;
-&lt;p&gt;12.选择服用抗性药后，白天吃CHUN药与仓库管理员、与医生、与农民对话，技能-银技-吸收精华，回破房子放好食物，睡觉，夜晚吃CHUN药与旅店老板、与井边村民对话（井边村民可能会找不到，可以通过进出旅馆刷出来），技能-银技-吸收精华，偷食物，回破房放好食物，睡觉……如此3天内就能收集齐500银能&lt;/p&gt;
-&lt;p&gt;13.收集到500银能后使用技能-银技-次元传送，就可以再次见到西西莉亚，进入最终结局魔虫线True End，真结局触发后狼神会告诉你这只是True End A，竟然还有隐藏真结局……&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2 id=&#34;隐藏真结局true-end-b&#34;&gt;隐藏真结局（True End B）：&lt;/h2&gt;
-&lt;p&gt;1.拥有亚巴顿完全体（曾经触发过Bad End A）&lt;/p&gt;
-&lt;p&gt;2.拥有Futa技能（非处女与梅丽莎组队完成任意公会任务多次可学得，可参考小支线攻略）&lt;/p&gt;
-&lt;p&gt;3.使用亚巴顿完全体飞行（技能-行为-起飞）到地图西南方向的神庙里，提前击败狼神后，再完成魔虫线True End&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;h2 id=&#34;细节补充&#34;&gt;细节补充：&lt;/h2&gt;
-&lt;p&gt;1.拒绝服用抗性药后，可以随意进入村民房子，湖下面房子里有仓库钥匙，可以进入仓库拿大量食物&lt;/p&gt;
-&lt;p&gt;2.旅馆院子里的食物如果不拿掉，后期会被做成陷阱，做成陷阱后拿了就会被村民发现&lt;/p&gt;
-&lt;p&gt;3.魔虫线Bad End A开启新周目可获得亚巴顿完全体和亚巴顿控制器（改变立绘形象用）&lt;/p&gt;
-&lt;p&gt;4.魔虫线Bad End B和True End开启新周目都只能获得部分亚巴顿装备&lt;/p&gt;
-&lt;p&gt;5.多周目可以加入公会后，使用技能-银技-次元传送，找到西西莉亚进行时空扭曲，直接完成催眠线、公会线、奴隶线第三公主任务，魔石在港口西边沙滩的墙壁裂缝里可以直接拿，不用监狱线，直接到小岛村触发魔虫剧情，根据需要选择结局，建议先Bad End B再True End&lt;/p&gt;
-&lt;p&gt;6.到小岛村旅店住杂物间，晚上桌子上会有一瓶牛奶，喝下后会触发夜袭，第二天继续住杂物间，就可以假装喝下然后装睡；走魔虫线True End时，也可以白天租杂物间，到了晚上再来假装喝下牛奶装睡，这样也可以收集银能，别真喝，会影响精华吸收&lt;/p&gt;
-&lt;h2 id=&#34;其他攻略&#34;&gt;其他攻略：&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/&#34;&gt;遗迹线：【诅咒铠甲】遗迹线（主线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-hypnosis-line-guide/&#34;&gt;催眠线：【诅咒铠甲】催眠线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-guild-line-guide/&#34;&gt;公会线：【诅咒铠甲】公会线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-slave-line-guide/&#34;&gt;奴隶线：【诅咒铠甲】奴隶线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-abbadon-line-guide/&#34;&gt;魔虫线：【诅咒铠甲】魔虫线（真结局）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-sacred-beast-line-guide/&#34;&gt;圣兽线：【诅咒铠甲】圣兽线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-prison-line-guide/&#34;&gt;监狱线：【诅咒铠甲】监狱线（支线）攻略&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://nagisa969.github.io/post/game/cursed-armor-independent-quests-and-events-guide/&#34;&gt;小支线、小事件：【诅咒铠甲】小支线、小事件攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-relic-line-guide/&#34;&gt;遗迹线：【诅咒铠甲】遗迹线（主线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-hypnosis-line-guide/&#34;&gt;催眠线：【诅咒铠甲】催眠线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-guild-line-guide/&#34;&gt;公会线：【诅咒铠甲】公会线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-slave-line-guide/&#34;&gt;奴隶线：【诅咒铠甲】奴隶线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-abbadon-line-guide/&#34;&gt;魔虫线：【诅咒铠甲】魔虫线（真结局）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-sacred-beast-line-guide/&#34;&gt;圣兽线：【诅咒铠甲】圣兽线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-prison-line-guide/&#34;&gt;监狱线：【诅咒铠甲】监狱线（支线）攻略&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.sunnybrook-ai.com/post/game/cursed-armor-independent-quests-and-events-guide/&#34;&gt;小支线、小事件：【诅咒铠甲】小支线、小事件攻略&lt;/a&gt;&lt;/p&gt;
 </description>
       
     </item>
