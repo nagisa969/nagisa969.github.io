@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 User-agent: Googlebot
 Disallow: /post/secend-post/
 Disallow: /post/how-to-do-site-group-seo/
@@ -7,3 +8,14 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.sunnybrook-ai.com/sitemap.xml
+=======
+User-agent: Googlebot
+Disallow: /post/secend-post/
+Disallow: /post/how-to-do-site-group-seo/
+Disallow: /post/first-post/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.sunnybrook-ai.com/sitemap.xml
+>>>>>>> 9563940 (aaaaa)
